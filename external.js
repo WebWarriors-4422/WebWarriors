@@ -12,7 +12,7 @@ var start = turf.point([-97.94576322327491, 29.884341192968666]);
 var end = turf.point([-97.92890853609376, 29.894266669878704]);
 
 var greatCircle = turf.greatCircle(start, end, {
-  properties: { name: "JO's Cafe to Meadows Center" },
+  properties: { name: "Jo's Cafe to Meadows Center" },
 });
 L.geoJSON(greatCircle, {
     style: {
@@ -22,7 +22,7 @@ L.geoJSON(greatCircle, {
     }
 }).addTo(map);
 L.marker([29.884341192968666, -97.94576322327491]).addTo(map)
-    .bindPopup("JO's Cafe");
+    .bindPopup("Jo's Cafe");
 
 L.marker([29.894266669878704, -97.92890853609376]).addTo(map)
     .bindPopup("Meadows Center");
