@@ -42,3 +42,6 @@ L.marker([29.89331410619119, -97.94184832292025]).addTo(map)
 
 L.marker([29.8977314507243, -97.97082322925434]).addTo(map)
     .bindPopup("Dive Shop");
+
+document.getElementById("distance-display").innerHTML =
+  "Distance from Don's Japanese Kitchen to Dive Shop: " + distance.toFixed(2) + " miles";
