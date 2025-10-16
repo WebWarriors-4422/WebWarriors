@@ -43,20 +43,3 @@ L.marker([29.89331410619119, -97.94184832292025]).addTo(map)
 L.marker([29.8977314507243, -97.97082322925434]).addTo(map)
     .bindPopup("Dive Shop");
 
-var midpoint = turf.midpoint(
-  [-97.94184832292025, 29.89331410619119],
-  [-97.97082322925434, 29.8977314507243]
-);
-
-var midpoint = turf.midpoint(
-  [-97.94184832292025, 29.89331410619119],
-  [-97.97082322925434, 29.8977314507243]
-);
-
-var midpointCoords = midpoint.geometry.coordinates;
-var lat = midpointCoords[1];
-var lng = midpointCoords[0];
-
-// Add a Leaflet marker at the midpoint
-L.marker([lat, lng]).addTo(map)
-  .bindPopup("Distance: " + distance.toFixed(2) + " miles");
