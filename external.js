@@ -27,20 +27,32 @@ L.marker([29.884341192968666, -97.94576322327491]).addTo(map)
 L.marker([29.894266669878704, -97.92890853609376]).addTo(map)
     .bindPopup("Meadows Center");
 // Kyle's Spatial analysis//
-  var polygon = turf.polygon([
-      [
-        [29.87711,-97.95769],
-        [29.87678,-97.95730],
-        [29.87768,-97.95620],
-        [29.87937,-97.95791],
-        [29.87894,-97.95848],
-        [29.87779,-97.95727],
-      ],
-    ]);
+ var polygon = turf.polygon([
+  [
+    [-97.95769, 29.87711],
+    [-97.95730, 29.87678],
+    [-97.95620, 29.87768],
+    [-97.95791, 29.87937],
+    [-97.95848, 29.87894],
+    [-97.95727, 29.87779],
+    [-97.95769, 29.87711] // close polygon
+  ]
+]);
 
-    var area = turf.area(polygon);.addTo(map);
+var area = turf.area(polygon); // area in square meters
+console.log('Polygon Area:', area);
+
+L.geoJSON(polygon, {
+  style: {
+    color: 'green',
+    fillColor: '#90ee90',
+    fillOpacity: 0.4,
+    weight: 2
+  }
+}).addTo(map);
+
 L.marker([29.87733, -97.94716]).addTo(map)
-    .bindPopup("Wonder World Cave");
+  .bindPopup("Wonder World Cave<br>Area: " + area.toFixed(2) + " m²");
 
 // Hank's Spatial Analysis
 L.marker([29.8977314507243, -97.97082322925434]).addTo(map)
