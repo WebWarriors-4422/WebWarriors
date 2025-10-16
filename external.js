@@ -48,5 +48,15 @@ var midpoint = turf.midpoint(
   [-97.97082322925434, 29.8977314507243]
 );
 
-var midpointLayer = L.geoJSON(midpoint).addTo(map);
-midpointLayer.bindPopup("Distance: " + distance.toFixed(2) + " miles");
+var midpoint = turf.midpoint(
+  [-97.94184832292025, 29.89331410619119],
+  [-97.97082322925434, 29.8977314507243]
+);
+
+var midpointCoords = midpoint.geometry.coordinates;
+var lat = midpointCoords[1];
+var lng = midpointCoords[0];
+
+// Add a Leaflet marker at the midpoint
+L.marker([lat, lng]).addTo(map)
+  .bindPopup("Distance: " + distance.toFixed(2) + " miles");
