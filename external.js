@@ -32,11 +32,10 @@ L.marker([29.894266669878704, -97.92890853609376]).addTo(map)
 var distance = turf.distance(
   [-97.94184832292025, 29.89331410619119],
   [-97.97082322925434, 29.8977314507243],
-  { units: 'kilometers' }
+  { units: 'miles' }
 );
 
-}).addTo(map);
-console.log("Distance: " + distance.toFixed(2) + " km");
+console.log("Distance: " + distance.toFixed(2) + " miles ");
 L.marker([29.89331410619119, -97.94184832292025]).addTo(map)
     .bindPopup("Don's Japanese Kitchen");
 
