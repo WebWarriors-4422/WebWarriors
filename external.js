@@ -29,13 +29,6 @@ L.marker([29.894266669878704, -97.92890853609376]).addTo(map)
 // Kyle's Spatial analysis//
 
 // Hank's Spatial Analysis
-var distance = turf.distance(
-  [-97.97082322925434, 29.8977314507243],
-  { units: 'miles' }
-);
-
-console.log("Distance: " + distance.toFixed(2) + " miles");
-
 L.marker([29.8977314507243, -97.97082322925434]).addTo(map)
     .bindPopup("Dive Shop");
 
