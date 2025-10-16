@@ -30,16 +30,23 @@ L.marker([29.894266669878704, -97.92890853609376]).addTo(map)
 
 // Hank's Spatial Analysis
 var distance = turf.distance(
-  [-97.94184832292025, 29.89331410619119],
   [-97.97082322925434, 29.8977314507243],
   { units: 'miles' }
 );
 
 console.log("Distance: " + distance.toFixed(2) + " miles");
 
-L.marker([29.89331410619119, -97.94184832292025]).addTo(map)
-    .bindPopup("Don's Japanese Kitchen");
-
 L.marker([29.8977314507243, -97.97082322925434]).addTo(map)
     .bindPopup("Dive Shop");
 
+var diveShopPoint = turf.point([-97.97082322925434, 29.8977314507243]);
+var diveShopBuffer = turf.buffer(diveShopPoint, 100, { units: 'feet' });
+
+L.geoJSON(diveShopBuffer, {
+  style: {
+    color: 'blue',
+    fillColor: '#add8e6',
+    fillOpacity: 0.4,
+    weight: 2
+  }
+}).addTo(map);
