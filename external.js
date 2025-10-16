@@ -28,6 +28,10 @@ L.marker([29.894266669878704, -97.92890853609376]).addTo(map)
     .bindPopup("Meadows Center");
 // Kyle's Spatial analysis//
 
+// Hank's Spatial Analysis//
 L.marker([29.89331410619119, -97.94184832292025]).addTo(map)
     .bindPopup("Don's Japanese Kitchen");
-// Hank's Spatial Analysis//
+
+L.marker([29.8977314507243, -97.97082322925434]).addTo(map)
+    .bindPopup("Dive Shop");
+
