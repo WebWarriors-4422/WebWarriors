@@ -35,6 +35,9 @@ L.marker([29.8977314507243, -97.97082322925434]).addTo(map)
 var diveShopPoint = turf.point([-97.97082322925434, 29.8977314507243]);
 var diveShopBuffer = turf.buffer(diveShopPoint, 100, { units: 'feet' });
 
+// Log the buffer geometry to the browser console
+console.log(JSON.stringify(diveShopBuffer));
+
 L.geoJSON(diveShopBuffer, {
   style: {
     color: 'blue',
