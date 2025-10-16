@@ -51,7 +51,7 @@ L.geoJSON(polygon, {
   }
 }).addTo(map);
 
-L.marker([29.87733, -97.95716]).addTo(map)
+L.marker([29.87736, -97.95733]).addTo(map)
   .bindPopup("Wonder World Cave<br>Area: " + area.toFixed(2) + " m²");
 
 // Hank's Spatial Analysis
