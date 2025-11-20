@@ -7,7 +7,7 @@ L.tileLayer(
     maxZoom: 18,
     }).addTo(map);
 
-//Tori's unique spatial analysis//
+/*Tori's unique spatial analysis
 var start = turf.point([-97.94576322327491, 29.884341192968666]);
 var end = turf.point([-97.92890853609376, 29.894266669878704]);
 
@@ -25,7 +25,7 @@ L.marker([29.884341192968666, -97.94576322327491]).addTo(map)
     .bindPopup("Jo's Cafe");
 
 L.marker([29.894266669878704, -97.92890853609376]).addTo(map)
-    .bindPopup("Meadows Center");
+    .bindPopup("Meadows Center");*/
 // Kyle's Spatial analysis//
  var polygon = turf.polygon([
   [
