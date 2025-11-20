@@ -7,6 +7,20 @@ L.tileLayer(
     maxZoom: 18,
     }).addTo(map);
 
+fetch('City Limits GeoJSON/City_Limits.geojson')
+  .then(response => response.json())
+  .then(data => {
+    L.geoJSON(data, {
+      style: {
+      color: '#ff0000',      // red border
+      weight: 3,             // border thickness
+      opacity: 0.8,
+      fillColor: '#ff0000',  // fill color
+      fillOpacity: 0.1       // transparent fill
+    }
+  }).addTo(map);
+})
+
 /*Tori's unique spatial analysis
 var start = turf.point([-97.94576322327491, 29.884341192968666]);
 var end = turf.point([-97.92890853609376, 29.894266669878704]);
