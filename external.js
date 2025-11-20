@@ -25,7 +25,7 @@ L.marker([29.884341192968666, -97.94576322327491]).addTo(map)
     .bindPopup("Jo's Cafe");
 
 L.marker([29.894266669878704, -97.92890853609376]).addTo(map)
-    .bindPopup("Meadows Center");*/
+    .bindPopup("Meadows Center");
 // Kyle's Spatial analysis//
  var polygon = turf.polygon([
   [
@@ -71,4 +71,4 @@ L.geoJSON(diveShopBuffer, {
     fillOpacity: 0.4,
     weight: 2
   }
-}).addTo(map);
+}).addTo(map);*/
