@@ -7,7 +7,7 @@ L.tileLayer(
     maxZoom: 18,
     }).addTo(map);
 
-// trying to show San Marcos city boundary
+// GeoJSON showing San Marcos city boundary
 fetch('City Limits GeoJSON/City_Limits.geojson')
   .then(response => {
     if (!response.ok) {\
