@@ -30,7 +30,17 @@ fetch('City_Limits.geojson')
   .catch(error => {
     console.error('Error loading GeoJSON:', error);
   });
-
+// Added Five Mile buffer//
+  L.marker([29.8827297, -97.9407576]).addTo(map);
+     var sanMarcosPoint = {
+       "type": "Feature",
+       "geometry": {
+         "type": "Point",
+         "coordinates": [-97.9407576, 29.8827297]
+       }
+     };
+     var buffer = turf.buffer( sanMarcosPoint, 5, { units: 'miles' });
+     L.geoJSON(buffer).addTo(map);
 /*Tori's unique spatial analysis
 var start = turf.point([-97.94576322327491, 29.884341192968666]);
 var end = turf.point([-97.92890853609376, 29.894266669878704]);
