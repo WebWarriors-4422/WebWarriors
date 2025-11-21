@@ -65,6 +65,29 @@ var bishopLine = L.polyline([
     color: 'purple',
     weight: 3
 }).addTo(map);
+
+//River Ridge line code
+var start = turf.point([-97.9004739, 29.9038436]);
+var end = turf.point([-97.9027857, 29.9049370]);
+var bishopLine = L.polyline([
+    [29.9038436, -97.9004739],
+    [29.9049370, -97.9027857]
+], {
+    color: 'purple',
+    weight: 3
+}).addTo(map);
+
+//Ih35 feeder line code
+var start = turf.point([-97.9032869, 29.9041976]);
+var end = turf.point([-97.9070326, 29.8999640]);
+var bishopLine = L.polyline([
+    [29.9041976, -97.9032869],
+    [29.8999640, -97.9070326]
+], {
+    color: 'purple',
+    weight: 3
+}).addTo(map);
+
 /*Tori's unique spatial analysis
 var start = turf.point([-97.94576322327491, 29.884341192968666]);
 var end = turf.point([-97.92890853609376, 29.894266669878704]);
