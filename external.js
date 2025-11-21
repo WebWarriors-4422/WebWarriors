@@ -47,10 +47,15 @@ fetch('City_Limits.geojson')
 
 var start = turf.point([-97.94576322327491, 29.884341192968666]);
 var end = turf.point([-97.92890853609376, 29.894266669878704]);
-
 var area = turf.area(polygon);.addTo(map);
-L.marker([29.87733, -97.94716]).addTo(map)
-L.marker([29.894266669878704, -97.92890853609376]).addTo(map)
+var bishopLine = L.polyline([
+    [29.88434119296866, -97.94576322327491],
+    [29.89426669878704, -97.92890853609376]
+], {
+    color: 'red',
+    weight: 3
+}).addTo(map);
+
 /*Tori's unique spatial analysis
 var start = turf.point([-97.94576322327491, 29.884341192968666]);
 var end = turf.point([-97.92890853609376, 29.894266669878704]);
