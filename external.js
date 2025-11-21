@@ -90,39 +90,36 @@ var bishopLine = L.polyline([
 
 //JavaScript code for road query
 document.getElementById("regionSelect").addEventListener("change", function(event) {
-    var region = event.target.value;
+  var region = event.target.value;
 
-    var regions = {
-        oldRanch: {
-            center: [-97.9183, 29.8727],
-            zoom: 14
-        },
-        riverRidge: {
-            center: [-97.9060, 29.9093],
-            zoom: 14
-        },
-        highway123: {
-            center: [-97.9405, 29.8498],
-            zoom: 14
-        },
-        bishop: {
-            center: [-97.9600, 29.8782],
-            zoom: 14
-        },
-        all: {
-            center: [-98, 39],
-            zoom: 4
-        }
-    };
-
-    if (regions[region]) {
-        view.goTo({
-            center: regions[region].center,
-            zoom: regions[region].zoom
-        }, {
-            duration: 2000
-        });
+  var regions = {
+    oldRanch: {
+      center: [29.8927, -97.9682],
+      zoom: 15
+    },
+    riverRidge: {
+      center: [29.9031, -97.9032],
+      zoom: 15
+    },
+    highway123: {
+      center: [29.8498, -97.9405],
+      zoom: 15
+    },
+    bishop: {
+      center: [29.8784, -97.9600],
+      zoom: 15
+    },
+    all: {
+      center: [39, -98],
+      zoom: 4
     }
+  };
+
+  if (regions[region]) {
+    map.flyTo(regions[region].center, regions[region].zoom, {
+      duration: 2
+    });
+  }
 });
 /*Tori's unique spatial analysis
 var start = turf.point([-97.94576322327491, 29.884341192968666]);
