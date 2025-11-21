@@ -8,18 +8,23 @@ L.tileLayer(
     }).addTo(map);
 
 fetch('City Limits GeoJSON/City_Limits.geojson')
-  .then(response => response.json())
+  .then(response => {
+    console.log('Response:', response);
+    return response.json();
+  })
   .then(data => {
+    console.log('GeoJSON loaded:', data);
     L.geoJSON(data, {
       style: {
-      color: '#ff0000',      // red border
-      weight: 3,             // border thickness
-      opacity: 0.8,
-      fillColor: '#ff0000',  // fill color
-      fillOpacity: 0.1       // transparent fill
-    }
-  }).addTo(map);
-})
+        color: '#ff0000',
+        weight: 3,
+        opacity: 1,
+        fillOpacity: 0.2
+      }
+    }).addTo(map);
+    console.log('Added to map');
+  })
+  .catch(error => console.error('Error:', error));
 
 /*Tori's unique spatial analysis
 var start = turf.point([-97.94576322327491, 29.884341192968666]);
