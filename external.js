@@ -21,3 +21,14 @@ L.tileLayer(
     var area = turf.area(polygon);.addTo(map);
 L.marker([29.87733, -97.94716]).addTo(map)
     .bindPopup("Wonder World Cave");
+
+    L.marker([29.8827297, -97.9407576]).addTo(map);
+    var sanMarcosPoint = {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.9407576, 29.8827297]
+      }
+    };
+    var buffer = turf.buffer( sanMarcosPoint, 5, { units: 'miles' });
+    L.geoJSON(buffer).addTo(map);
