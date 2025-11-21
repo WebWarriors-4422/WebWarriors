@@ -10,7 +10,7 @@ L.tileLayer(
 // GeoJSON showing San Marcos city boundary
 fetch('City_Limits.geojson')
   .then(response => {
-    if (!response.ok) {\
+    if (!response.ok) {
       throw new Error('Network response was not ok');
     }
     return response.json();
