@@ -55,6 +55,16 @@ var bishopLine = L.polyline([
     weight: 3
 }).addTo(map);
 
+//123 line Code //
+var start = turf.point([-97.9394127, 29.8572018]);
+var end = turf.point([-97.9432741, 29.8167233]);
+var bishopLine = L.polyline([
+    [29.8572018, -97.9394127],
+    [29.8167233, -97.9432741]
+], {
+    color: 'purple',
+    weight: 3
+}).addTo(map);
 /*Tori's unique spatial analysis
 var start = turf.point([-97.94576322327491, 29.884341192968666]);
 var end = turf.point([-97.92890853609376, 29.894266669878704]);
