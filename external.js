@@ -41,6 +41,11 @@ fetch('City_Limits.geojson')
      };
      var buffer = turf.buffer( sanMarcosPoint, 5, { units: 'miles' });
      L.geoJSON(buffer).addTo(map);
+
+//Bishop St. line code//
+var start = turf.point([-97.94576322327491, 29.884341192968666]);
+var end = turf.point([-97.92890853609376, 29.894266669878704]);
+
 /*Tori's unique spatial analysis
 var start = turf.point([-97.94576322327491, 29.884341192968666]);
 var end = turf.point([-97.92890853609376, 29.894266669878704]);
