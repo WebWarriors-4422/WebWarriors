@@ -7,6 +7,30 @@ L.tileLayer(
     maxZoom: 18,
     }).addTo(map);
 
+// trying to show San Marcos city boundary
+fetch('City Limits GeoJSON/City_Limits.geojson')
+  .then(response => {
+    if (!response.ok) {\
+      throw new Error('Network response was not ok');
+    }
+    return response.json();
+  })
+  .then(data => {
+    L.geoJSON(data, {
+      style: {
+        color: '#FF0000',        // Red border
+        weight: 3,               // Border thickness
+        opacity: 0.8,            // Border opacity
+        fillColor: '#FF0000',    // Fill color
+        fillOpacity: 0.1         // Fill transparency
+      }
+    }).addTo(map);
+    console.log('GeoJSON loaded successfully');
+  })
+  .catch(error => {
+    console.error('Error loading GeoJSON:', error);
+  });
+
 /*Tori's unique spatial analysis
 var start = turf.point([-97.94576322327491, 29.884341192968666]);
 var end = turf.point([-97.92890853609376, 29.894266669878704]);
