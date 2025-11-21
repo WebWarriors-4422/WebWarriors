@@ -79,10 +79,10 @@ var bishopLine = L.polyline([
 
 //Ih35 feeder line code
 var start = turf.point([-97.9032869, 29.9041976]);
-var end = turf.point([-97.9070326, 29.8999640]);
+var end = turf.point([-97.9070054, 29.8995782]);
 var bishopLine = L.polyline([
     [29.9041976, -97.9032869],
-    [29.8999640, -97.9070326]
+    [29.8995782, -97.9070054]
 ], {
     color: 'purple',
     weight: 3
