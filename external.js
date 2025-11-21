@@ -8,7 +8,7 @@ L.tileLayer(
     }).addTo(map);
 
 // GeoJSON showing San Marcos city boundary
-fetch('City Limits GeoJSON/City_Limits.geojson')
+fetch('City_Limits.geojson')
   .then(response => {
     if (!response.ok) {\
       throw new Error('Network response was not ok');
