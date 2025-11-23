@@ -134,12 +134,25 @@ html, body, #map {
 }
 
 .legend-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #007bff;
-  margin-right: 10px;
-  flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50% 50% 50% 0;
+    background-color: #0078A8;
+    margin-right: 10px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    position: relative;
+}
+
+.legend-dot::before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%;
+    top: 3px;
+    left: 3px;
 }
 
 /*footer styling*/
