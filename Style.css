@@ -114,3 +114,23 @@ html, body, #map {
   margin-right: 10px;
   border: 1px solid white;
 }
+
+/*footer styling*/
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1a3d47;
+  color: white;
+  padding: 15px 30px;
+  font-size: 12px;
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  box-sizing: border-box;
+}
+
+#footer p {
+  margin: 5px 0;
+  line-height: 1.4;
+}
