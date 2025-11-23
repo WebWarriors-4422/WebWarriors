@@ -175,8 +175,8 @@ html, body, #map {
   line-height: 1.4;
 }
 
-/* zoom elements */
+/*zoom element*/
 .leaflet-top.leaflet-left {
     left: 430px !important;
-    top: 10px !important;
+    top: 0.1px !important;
 }
