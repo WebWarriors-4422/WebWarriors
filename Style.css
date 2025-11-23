@@ -40,6 +40,9 @@ html, body, #map {
 #info-box .dropbtn:hover {
   background-color: #3e8e41;
 }
+#info-box .dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /*road query button*/
 #queryDropdown {
