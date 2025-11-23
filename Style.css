@@ -6,49 +6,41 @@ html, body, #map {
     height: 100%;
     width: 100%;
 }
-/*About Us Button*/
-.dropbtn {
+
+/*updated About Us Button*/
+#info-box .dropbtn {
   background-color: #4CAF50;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
 }
 
-.dropdown {
-  position: absolute;
-  top: 45px;
-  right: 45px;
-  z-index: 1000;
-}
-
-.dropdown-content {
+#info-box .dropdown-content {
   display: none;
-  position: absolute;
   background-color: #f9f9f9;
-  min-width: 200px;
+  width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.dropdown-content a {
+#info-box .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {
+#info-box .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
+#info-box .dropbtn:hover {
   background-color: #3e8e41;
 }
+
 /*road query button*/
 #queryDropdown {
     position: absolute;
