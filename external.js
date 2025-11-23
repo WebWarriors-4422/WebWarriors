@@ -110,8 +110,8 @@ document.getElementById("regionSelect").addEventListener("change", function(even
       zoom: 15
     },
     all: {
-      center: [39, -98],
-      zoom: 4
+      center: [29.8884, -97.9384],
+      zoom: 12
     }
   };
 
