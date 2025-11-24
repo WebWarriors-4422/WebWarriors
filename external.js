@@ -7,7 +7,7 @@ L.tileLayer(
     maxZoom: 18,
     }).addTo(map);
 
-/*GeoJSON showing San Marcos city boundary*/
+// GeoJSON showing San Marcos city boundary
 fetch('City_Limits.geojson')
   .then(response => {
     if (!response.ok) {
@@ -20,9 +20,10 @@ fetch('City_Limits.geojson')
       style: {
         color: '#FF0000',        // Red border
         weight: 3,               // Border thickness
-        /*opacity: 0.8,            // Border opacity
+        opacity: 0.8,            // Border opacity
         fillColor: '#FF0000',    // Fill color
-        fillOpacity: 0.1         // Fill transparency*/
+        fillOpacity: 0.1         // Fill transparency
+      }
     }).addTo(map);
     console.log('GeoJSON loaded successfully');
   })
@@ -50,7 +51,7 @@ var bishopLine = L.polyline([
     [29.8768540, -97.9582455],
     [29.8838328, -97.9660008]
 ], {
-    color: 'red',
+    color: 'purple',
     weight: 3
 }).addTo(map);
 
@@ -61,7 +62,7 @@ var bishopLine = L.polyline([
     [29.8572018, -97.9394127],
     [29.8167233, -97.9432741]
 ], {
-    color: 'red',
+    color: 'purple',
     weight: 3
 }).addTo(map);
 
@@ -72,7 +73,7 @@ var bishopLine = L.polyline([
     [29.9038436, -97.9004739],
     [29.9049370, -97.9027857]
 ], {
-    color: 'red',
+    color: 'purple',
     weight: 3
 }).addTo(map);
 
@@ -83,7 +84,7 @@ var bishopLine = L.polyline([
     [29.9041976, -97.9032869],
     [29.8995782, -97.9070054]
 ], {
-    color: 'red',
+    color: 'purple',
     weight: 3
 }).addTo(map);
 
