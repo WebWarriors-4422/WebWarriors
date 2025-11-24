@@ -1,4 +1,4 @@
-var map = L.map('map').setView([29.8884, -97.9384], 14);
+var map = L.map('map').setView([29.8827297, -98.01], 12); //adjusted map view
 mapLink =
     '<a href="http://openstreetmap.org">OpenStreetMap</a>';
 L.tileLayer(
@@ -18,11 +18,8 @@ fetch('City_Limits.geojson')
   .then(data => {
     L.geoJSON(data, {
       style: {
-        color: '#FF0000',        // Red border
-        weight: 3,               // Border thickness
-        opacity: 0.8,            // Border opacity
-        fillColor: '#FF0000',    // Fill color
-        fillOpacity: 0.1         // Fill transparency
+        color: '#000000',        // black border
+        weight: 1.5,               // Border thickness
       }
     }).addTo(map);
     console.log('GeoJSON loaded successfully');
@@ -32,7 +29,7 @@ fetch('City_Limits.geojson')
   });
 
 // Added Five Mile buffer//
-  L.marker([29.8827297, -97.9407576]).addTo(map);
+  //L.marker([29.8827297, -97.9407576]).addTo(map);
      var sanMarcosPoint = {
        "type": "Feature",
        "geometry": {
@@ -44,15 +41,14 @@ fetch('City_Limits.geojson')
      L.geoJSON(buffer).addTo(map);
 
 //Bishop St. line code//
-
 var start = turf.point([-97.9582455, 29.8768540]);
 var end = turf.point([-97.9660008, 29.8838328]);
 var bishopLine = L.polyline([
     [29.8768540, -97.9582455],
     [29.8838328, -97.9660008]
 ], {
-    color: 'purple',
-    weight: 3
+    color: 'Red',
+    weight: 4
 }).addTo(map);
 
 //123 line Code //
@@ -63,7 +59,7 @@ var bishopLine = L.polyline([
     [29.8167233, -97.9432741]
 ], {
     color: 'purple',
-    weight: 3
+    weight: 4
 }).addTo(map);
 
 //River Ridge line code
@@ -74,7 +70,7 @@ var bishopLine = L.polyline([
     [29.9049370, -97.9027857]
 ], {
     color: 'purple',
-    weight: 3
+    weight: 4
 }).addTo(map);
 
 //Ih35 feeder line code
@@ -85,9 +81,42 @@ var bishopLine = L.polyline([
     [29.8995782, -97.9070054]
 ], {
     color: 'purple',
-    weight: 3
+    weight: 4
 }).addTo(map);
 
+//JavaScript code for road query
+document.getElementById("regionSelect").addEventListener("change", function(event) {
+  var region = event.target.value;
+
+  var regions = {
+    oldRanch: {
+      center: [29.8927, -97.9682],
+      zoom: 15
+    },
+    riverRidge: {
+      center: [29.9031, -97.9032],
+      zoom: 15
+    },
+    highway123: {
+      center: [29.8498, -97.9405],
+      zoom: 15
+    },
+    bishop: {
+      center: [29.8784, -97.9600],
+      zoom: 15
+    },
+    all: {
+      center: [29.8827297, -98.01],
+      zoom: 12
+    }
+  };
+
+  if (regions[region]) {
+    map.flyTo(regions[region].center, regions[region].zoom, {
+      duration: 2
+    });
+  }
+});
 /*Tori's unique spatial analysis
 var start = turf.point([-97.94576322327491, 29.884341192968666]);
 var end = turf.point([-97.92890853609376, 29.894266669878704]);

@@ -1,25 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Full Screen Leaflet Map</title>
+    <title>Streets Lacking Pedestrian-Friendly Infrastructure</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <div id="map"></div>
+  <body>
+  <div id="map"></div>
 
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
-    <script src="external.js"></script>
+  <!--code for info box at the left of the webpage-->
+  <div id="info-box">
+    <h2>Highlighting Streets Lacking Pedestrian-Friendly Infrastructure in San Marcos, Texas </h2>
+    <p>Through this project, we hope to bring awareness to areas of the city that we see as being in need of more pedestrian-friendly infrastructure.</p>
+
+    <!--moved About US button-->
     <div class="dropdown">
       <button class="dropbtn">About Us</button>
       <div class="dropdown-content">
-        <a href="https://saythename-svt.github.io/hus3.github.io/" target="_blank">Tori</a>
-        <a href="https://khaugstad.github.io/" target="_blank">Kyle</a>
-        <a href="https://hankhall512.github.io/Hanktxst.github.io/" target="_blank">Hank</a>
+        <a href="https://saythename-svt.github.io/hus3.github.io/" target="_blank">Tori Haddox</a>
+        <a href="https://khaugstad.github.io/" target="_blank">Kyle Haugstad</a>
+        <a href="https://hankhall512.github.io/Hanktxst.github.io/" target="_blank">Hank Hall</a>
+      </div>
     </div>
-</div>
 
+    <!--Legend code-->
+    <div class="legend-section">
+      <h3>Legend</h3>
+      <div class="legend-item">
+        <span class="legend-circle"  style="border: 3px solid #0000ff;"></span>
+        <span>5-Mile Buffer from Hays County Courthouse</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-color" style="background-color: #ff0000;"></span>
+        <span>City of San Marcos</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-line" style="background-color: #800080;"></span>
+        <span>Problem Areas</span>
+        </div>
+      <div class="legend-item">
+        <span class="legend-dot"></span>
+        <span>Informational Popup Windows</span>
+      </div>
+    </div>
+
+    <!--footer code with group info and copyright-->
+    <div id="footer">
+      <p>WebWarriors | GEO 4422</p>
+      <div id="copyright">
+        <script>
+          var today = new Date();
+          var year = today.getFullYear();
+          document.writeln("Copyright &copy; " + year);
+        </script>
+      </div>
+    </div>
+  </div>
+
+    <!-- query for roads -->
+    <div id="queryDropdown">
+        <label for="regionSelect">Select Road or Region:</label>
+        <select id="regionSelect">
+            <option value="all">San Marcos</option>
+            <option value="oldRanch">Old Ranch Road 12</option>
+            <option value="riverRidge">River Ridge Parkway</option>
+            <option value="highway123">Highway 123</option>
+            <option value="bishop">Bishop Street</option>
+        </select>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
+    <script src="external.js"></script>
 </body>
 </html>
