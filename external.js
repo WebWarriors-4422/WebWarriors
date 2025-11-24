@@ -39,7 +39,13 @@ fetch('City_Limits.geojson')
        }
      };
      var buffer = turf.buffer( sanMarcosPoint, 5, { units: 'miles' });
-     L.geoJSON(buffer).addTo(map);
+     L.geoJSON(buffer, {
+       style: {
+         color: '#ffc09f',
+         weight: 2,
+         fillOpacity: 0.15
+       }
+     }).addTo(map);
 
 //Bishop St. line code//
 var start = turf.point([-97.9582455, 29.8768540]);
