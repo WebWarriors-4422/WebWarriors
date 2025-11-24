@@ -18,11 +18,9 @@ fetch('City_Limits.geojson')
   .then(data => {
     L.geoJSON(data, {
       style: {
-        color: '#FF0000',        // Red border
+        color: '#000000',        // Red border
         weight: 3,               // Border thickness
         opacity: 0.8,            // Border opacity
-        fillColor: '#FF0000',    // Fill color
-        fillOpacity: 0.1         // Fill transparency
       }
     }).addTo(map);
     console.log('GeoJSON loaded successfully');
@@ -44,14 +42,13 @@ fetch('City_Limits.geojson')
      L.geoJSON(buffer).addTo(map);
 
 //Bishop St. line code//
-
 var start = turf.point([-97.9582455, 29.8768540]);
 var end = turf.point([-97.9660008, 29.8838328]);
 var bishopLine = L.polyline([
     [29.8768540, -97.9582455],
     [29.8838328, -97.9660008]
 ], {
-    color: 'purple',
+    color: 'Red',
     weight: 3
 }).addTo(map);
 
