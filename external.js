@@ -7,7 +7,7 @@ L.tileLayer(
     maxZoom: 18,
     }).addTo(map);
 
-// GeoJSON showing San Marcos city boundary
+/*GeoJSON showing San Marcos city boundary*/
 fetch('City_Limits.geojson')
   .then(response => {
     if (!response.ok) {
@@ -20,10 +20,9 @@ fetch('City_Limits.geojson')
       style: {
         color: '#FF0000',        // Red border
         weight: 3,               // Border thickness
-        opacity: 0.8,            // Border opacity
+        /*opacity: 0.8,            // Border opacity
         fillColor: '#FF0000',    // Fill color
-        fillOpacity: 0.1         // Fill transparency
-      }
+        fillOpacity: 0.1         // Fill transparency*/
     }).addTo(map);
     console.log('GeoJSON loaded successfully');
   })
