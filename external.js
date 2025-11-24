@@ -104,6 +104,96 @@ var bishopLine = L.polyline([
     color: 'purple',
     weight: 4
 }).addTo(map);
+//Ranch road line #3 code
+var start = turf.point([-97.9534626, 29.8869012]);
+var end = turf.point([-97.9543256, 29.8882448]);
+var bishopLine = L.polyline([
+    [29.8869012, -97.9534626],
+    [29.8882448, -97.9543256]
+], {
+    color: 'purple',
+    weight: 4
+}).addTo(map);  
+//Ranch road line #4 code
+var start = turf.point([-97.9543256, 29.8882448]);
+var end = turf.point([-97.9551311, 29.8898516]);
+var bishopLine = L.polyline([
+    [29.8882448, -97.9543256],
+    [29.8898516, -97.9551311]
+], {
+    color: 'purple',
+    weight: 4
+}).addTo(map);
+//Ranch road line #5 code
+var start = turf.point([-97.9551311, 29.8898516]);
+var end = turf.point([-97.9586877, 29.8934704]);
+var bishopLine = L.polyline([
+    [29.8898516, -97.9551311],
+    [29.8934704, -97.9586877]
+], {
+    color: 'purple',
+    weight: 4
+}).addTo(map);  
+//Ranch road line #6 code
+var start = turf.point([-97.9586877, 29.8934704]);
+var end = turf.point([-97.9604295, 29.8949989]);
+var bishopLine = L.polyline([
+    [29.8934704, -97.9586877],
+    [29.8949989, -97.9604295]
+], {
+    color: 'purple',
+    weight: 4
+}).addTo(map);
+//Ranch road line #7 code
+var start = turf.point([-97.9604295, 29.8949989]);
+var end = turf.point([-97.9642005, 29.8963289]);
+var bishopLine = L.polyline([
+    [29.8949989, -97.9604295],
+    [29.8963289, -97.9642005]
+], {
+    color: 'purple',
+    weight: 4
+}).addTo(map);
+//Ranch road line #8 code
+var start = turf.point([-97.9642005, 29.8963289]);
+var end = turf.point([-97.9682708, 29.8970408]);
+var bishopLine = L.polyline([
+    [29.8963289, -97.9642005],
+    [29.8970408, -97.9682708]
+], {
+    color: 'purple',
+    weight: 4
+}).addTo(map);
+//Ranch road line #9 code
+var start = turf.point([-97.9682708, 29.8970408]);
+var end = turf.point([-97.9726911, 29.8988995]);
+var bishopLine = L.polyline([
+    [29.8970408, -97.9682708],
+    [29.8988995, -97.9726911]
+], {
+    color: 'purple',
+    weight: 4
+}).addTo(map);
+//Ranch road line #10 code
+var start = turf.point([-97.9726911, 29.8988995]);
+var end = turf.point([-97.9789161, 29.8992520]);
+var bishopLine = L.polyline([
+    [29.8988995, -97.9726911],
+    [29.8992520, -97.9789161]
+], {
+    color: 'purple',
+    weight: 4
+}).addTo(map);
+//Ranch road line #11 code
+var start = turf.point([-97.9789161, 29.8992520]);
+var end = turf.point([-97.9838520, 29.9004806]);
+var bishopLine = L.polyline([
+    [29.8992520, -97.9789161],
+    [29.9004806, -97.9838520]
+], {
+    color: 'purple',
+    weight: 4
+}).addTo(map);
 
 //JavaScript code for road query
 document.getElementById("regionSelect").addEventListener("change", function(event) {
