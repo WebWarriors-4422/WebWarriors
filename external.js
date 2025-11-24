@@ -118,6 +118,95 @@ document.getElementById("regionSelect").addEventListener("change", function(even
     });
   }
 });
+
+// popup windows code 1ines 123 thru
+var detailMarkers = L.layerGroup();
+
+//river ridge region, lines 125 thru 209
+//river ridge marker 1
+var marker1 = L.marker([coordinates])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Location Name</h3>
+      <img src="path/to/your/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker1.addTo(detailMarkers);
+//river ridge marker 2
+var marker2 = L.marker([coordinates])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker2.addTo(detailMarkers);
+//river ridge marker 3
+var marker2 = L.marker([coordinates])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker2.addTo(detailMarkers);
+//river ridge marker 4
+var marker2 = L.marker([coordinates])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker2.addTo(detailMarkers);
+//river ridge marker 5
+var marker2 = L.marker([coordinates])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker2.addTo(detailMarkers);
+//river ridge marker 6
+var marker2 = L.marker([coordinates])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker2.addTo(detailMarkers);
+
+// Set minimum zoom level for markers to appear
+// Set minimum zoom level for markers to appear
+var minZoomForMarkers = 14;
+
+// Check zoom on map load
+if (map.getZoom() >= minZoomForMarkers) {
+  detailMarkers.addTo(map);
+}
+
+// Listen for zoom changes
+map.on('zoomend', function() {
+  var currentZoom = map.getZoom();
+
+  if (currentZoom >= minZoomForMarkers) {
+    if (!map.hasLayer(detailMarkers)) {
+      detailMarkers.addTo(map);
+    }
+  } else {
+    if (map.hasLayer(detailMarkers)) {
+      map.removeLayer(detailMarkers);
+    }
+  }
+});
 /*Tori's unique spatial analysis
 var start = turf.point([-97.94576322327491, 29.884341192968666]);
 var end = turf.point([-97.92890853609376, 29.894266669878704]);
