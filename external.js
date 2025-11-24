@@ -48,7 +48,7 @@ var bishopLine = L.polyline([
     [29.8768540, -97.9582455],
     [29.8838328, -97.9660008]
 ], {
-    color: 'orange',
+    color: '#cc5500',
     weight: 4
 }).addTo(map);
 
@@ -59,7 +59,7 @@ var bishopLine = L.polyline([
     [29.8572018, -97.9394127],
     [29.8167233, -97.9432741]
 ], {
-    color: 'orange',
+    color: '#cc5500',
     weight: 4
 }).addTo(map);
 
@@ -70,7 +70,7 @@ var bishopLine = L.polyline([
     [29.9038436, -97.9004739],
     [29.9049370, -97.9027857]
 ], {
-    color: 'orange',
+    color: '#cc5500',
     weight: 4
 }).addTo(map);
 
@@ -81,7 +81,7 @@ var bishopLine = L.polyline([
     [29.9041976, -97.9032869],
     [29.8995782, -97.9070054]
 ], {
-    color: 'orange',
+    color: '#cc5500',
     weight: 4
 }).addTo(map);
 
@@ -92,7 +92,7 @@ var bishopLine = L.polyline([
     [29.8852674, -97.9498207],
     [29.8852677, -97.9513770]
 ], {
-    color: 'purple',
+    color: '#cc5500',
     weight: 4
 }).addTo(map);
 //Ranch road line #2 code
@@ -102,7 +102,7 @@ var bishopLine = L.polyline([
     [29.8852677, -97.9513770],
     [29.8869012, -97.9534626]
 ], {
-    color: 'purple',
+    color: '#cc5500',
     weight: 4
 }).addTo(map);
 
