@@ -19,7 +19,8 @@ fetch('City_Limits.geojson')
     L.geoJSON(data, {
       style: {
         color: '#000000',        // black border
-        weight: 1.5,               // Border thickness
+        weight: 1,            // Border thickness
+        fillOpacity: 0           // Make fill transparent
       }
     }).addTo(map);
     console.log('GeoJSON loaded successfully');
