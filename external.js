@@ -41,7 +41,7 @@ fetch('City_Limits.geojson')
      var buffer = turf.buffer( sanMarcosPoint, 5, { units: 'miles' });
      L.geoJSON(buffer, {
        style: {
-         color: '#ffc09f',
+         color: '#ffaa7f',
          weight: 2,
          fillOpacity: 0.15
        }
