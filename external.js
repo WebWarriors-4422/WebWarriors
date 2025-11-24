@@ -18,9 +18,8 @@ fetch('City_Limits.geojson')
   .then(data => {
     L.geoJSON(data, {
       style: {
-        color: '#000000',        // Red border
-        weight: 3,               // Border thickness
-        opacity: 0.8,            // Border opacity
+        color: '#000000',        // black border
+        weight: 1.5,               // Border thickness
       }
     }).addTo(map);
     console.log('GeoJSON loaded successfully');
@@ -30,7 +29,7 @@ fetch('City_Limits.geojson')
   });
 
 // Added Five Mile buffer//
-  L.marker([29.8827297, -97.9407576]).addTo(map);
+  //L.marker([29.8827297, -97.9407576]).addTo(map);
      var sanMarcosPoint = {
        "type": "Feature",
        "geometry": {
@@ -49,7 +48,7 @@ var bishopLine = L.polyline([
     [29.8838328, -97.9660008]
 ], {
     color: 'Red',
-    weight: 3
+    weight: 4
 }).addTo(map);
 
 //123 line Code //
@@ -60,7 +59,7 @@ var bishopLine = L.polyline([
     [29.8167233, -97.9432741]
 ], {
     color: 'purple',
-    weight: 3
+    weight: 4
 }).addTo(map);
 
 //River Ridge line code
@@ -71,7 +70,7 @@ var bishopLine = L.polyline([
     [29.9049370, -97.9027857]
 ], {
     color: 'purple',
-    weight: 3
+    weight: 4
 }).addTo(map);
 
 //Ih35 feeder line code
@@ -82,7 +81,7 @@ var bishopLine = L.polyline([
     [29.8995782, -97.9070054]
 ], {
     color: 'purple',
-    weight: 3
+    weight: 4
 }).addTo(map);
 
 //JavaScript code for road query
