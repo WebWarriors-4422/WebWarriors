@@ -50,7 +50,7 @@ var bishopLine = L.polyline([
     [29.8768540, -97.9582455],
     [29.8838328, -97.9660008]
 ], {
-    color: 'purple',
+    color: 'red',
     weight: 3
 }).addTo(map);
 
@@ -61,7 +61,7 @@ var bishopLine = L.polyline([
     [29.8572018, -97.9394127],
     [29.8167233, -97.9432741]
 ], {
-    color: 'purple',
+    color: 'red',
     weight: 3
 }).addTo(map);
 
@@ -72,7 +72,7 @@ var bishopLine = L.polyline([
     [29.9038436, -97.9004739],
     [29.9049370, -97.9027857]
 ], {
-    color: 'purple',
+    color: 'red',
     weight: 3
 }).addTo(map);
 
@@ -83,7 +83,7 @@ var bishopLine = L.polyline([
     [29.9041976, -97.9032869],
     [29.8995782, -97.9070054]
 ], {
-    color: 'purple',
+    color: 'red',
     weight: 3
 }).addTo(map);
 
