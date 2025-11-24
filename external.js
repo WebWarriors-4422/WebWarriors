@@ -212,16 +212,16 @@ document.getElementById("regionSelect").addEventListener("change", function(even
       zoom: 15
     },
     riverRidge: {
-      center: [29.9031, -97.9032],
-      zoom: 15
+      center: [29.9024941, -97.9042372],
+      zoom: 16
     },
     highway123: {
-      center: [29.8498, -97.9405],
-      zoom: 15
+      center: [29.8393052, -97.9413353],
+      zoom: 14
     },
     bishop: {
-      center: [29.8784, -97.9600],
-      zoom: 15
+      center: [29.8808391, -97.9627148],
+      zoom: 16
     },
     all: {
       center: [29.8827297, -98.01],
