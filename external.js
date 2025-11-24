@@ -84,6 +84,27 @@ var bishopLine = L.polyline([
     weight: 4
 }).addTo(map);
 
+//Ranch road line #1 code
+var start = turf.point([-97.9498207, 29.8852674]);
+var end = turf.point([-97.9513770, 29.8852677]);
+var bishopLine = L.polyline([
+    [29.8852674, -97.9498207],
+    [29.8852677, -97.9513770]
+], {
+    color: 'purple',
+    weight: 4
+}).addTo(map);
+//Ranch road line #2 code
+var start = turf.point([-97.9513770, 29.8852677]);
+var end = turf.point([-97.9534626, 29.8869012]);
+var bishopLine = L.polyline([
+    [29.8852677, -97.9513770],
+    [29.8869012, -97.9534626]
+], {
+    color: 'purple',
+    weight: 4
+}).addTo(map);
+
 //JavaScript code for road query
 document.getElementById("regionSelect").addEventListener("change", function(event) {
   var region = event.target.value;
