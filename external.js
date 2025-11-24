@@ -48,7 +48,7 @@ var bishopLine = L.polyline([
     [29.8768540, -97.9582455],
     [29.8838328, -97.9660008]
 ], {
-    color: 'Red',
+    color: 'orange',
     weight: 4
 }).addTo(map);
 
@@ -59,7 +59,7 @@ var bishopLine = L.polyline([
     [29.8572018, -97.9394127],
     [29.8167233, -97.9432741]
 ], {
-    color: 'purple',
+    color: 'orange',
     weight: 4
 }).addTo(map);
 
@@ -70,7 +70,7 @@ var bishopLine = L.polyline([
     [29.9038436, -97.9004739],
     [29.9049370, -97.9027857]
 ], {
-    color: 'purple',
+    color: 'orange',
     weight: 4
 }).addTo(map);
 
@@ -81,7 +81,7 @@ var bishopLine = L.polyline([
     [29.9041976, -97.9032869],
     [29.8995782, -97.9070054]
 ], {
-    color: 'purple',
+    color: 'orange',
     weight: 4
 }).addTo(map);
 
@@ -119,11 +119,11 @@ document.getElementById("regionSelect").addEventListener("change", function(even
   }
 });
 
-// popup windows code
+//popup windows code
 var detailMarkers = L.layerGroup();
 
 //river ridge marker 1
-var marker1 = L.marker([coordinates])
+var marker1 = L.marker([29.90456992620602, -97.90171161461943])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Location Name</h3>
@@ -132,6 +132,7 @@ var marker1 = L.marker([coordinates])
     </div>
   `);
 marker1.addTo(detailMarkers);
+
 //river ridge marker 2
 var marker2 = L.marker([coordinates])
   .bindPopup(`
@@ -143,7 +144,7 @@ var marker2 = L.marker([coordinates])
   `);
 marker2.addTo(detailMarkers);
 //river ridge marker 3
-var marker2 = L.marker([coordinates])
+var marker3 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -151,9 +152,9 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker3.addTo(detailMarkers);
 //river ridge marker 4
-var marker2 = L.marker([coordinates])
+var marker4 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -161,9 +162,9 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker4.addTo(detailMarkers);
 //river ridge marker 5
-var marker2 = L.marker([coordinates])
+var marker5= L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -171,9 +172,9 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker5.addTo(detailMarkers);
 //river ridge marker 6
-var marker2 = L.marker([coordinates])
+var marker6 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -181,10 +182,10 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker6.addTo(detailMarkers);
 
 //123 marker 1
-var marker1 = L.marker([coordinates])
+var marker7 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Location Name</h3>
@@ -192,9 +193,9 @@ var marker1 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker1.addTo(detailMarkers);
+marker7.addTo(detailMarkers);
 //123 marker 2
-var marker2 = L.marker([coordinates])
+var marker8 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -202,9 +203,9 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker8.addTo(detailMarkers);
 //123 marker 3
-var marker2 = L.marker([coordinates])
+var marker9 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -212,9 +213,9 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker9.addTo(detailMarkers);
 //123 marker 4
-var marker2 = L.marker([coordinates])
+var marker10 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -222,9 +223,9 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker10.addTo(detailMarkers);
 //123 marker 5
-var marker2 = L.marker([coordinates])
+var marker11 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -232,9 +233,9 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker11.addTo(detailMarkers);
 //123 marker 6
-var marker2 = L.marker([coordinates])
+var marker12 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -242,10 +243,10 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker12.addTo(detailMarkers);
 
 //Bishop marker 1
-var marker1 = L.marker([coordinates])
+var marker13 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Location Name</h3>
@@ -253,9 +254,9 @@ var marker1 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker1.addTo(detailMarkers);
+marker13.addTo(detailMarkers);
 //Bishop marker 2
-var marker2 = L.marker([coordinates])
+var marker14 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -263,9 +264,9 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker14.addTo(detailMarkers);
 //Bishop marker 3
-var marker2 = L.marker([coordinates])
+var marker15 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -273,9 +274,9 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker15.addTo(detailMarkers);
 //Bishop marker 4
-var marker2 = L.marker([coordinates])
+var marker16 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -283,9 +284,9 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker16.addTo(detailMarkers);
 //Bishop marker 5
-var marker2 = L.marker([coordinates])
+var marker17 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -293,9 +294,9 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker17.addTo(detailMarkers);
 //Bishop marker 6
-var marker2 = L.marker([coordinates])
+var marker18 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -303,10 +304,10 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker18.addTo(detailMarkers);
 
 //Ranch marker 1
-var marker1 = L.marker([coordinates])
+var marker19 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Location Name</h3>
@@ -314,9 +315,9 @@ var marker1 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker1.addTo(detailMarkers);
+marker19.addTo(detailMarkers);
 //Ranch marker 2
-var marker2 = L.marker([coordinates])
+var marker20 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -324,9 +325,9 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker20.addTo(detailMarkers);
 //Ranch marker 3
-var marker2 = L.marker([coordinates])
+var marker21 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -334,9 +335,9 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker21.addTo(detailMarkers);
 //Ranch marker 4
-var marker2 = L.marker([coordinates])
+var marker22 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -344,9 +345,9 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker22.addTo(detailMarkers);
 //Ranch marker 5
-var marker2 = L.marker([coordinates])
+var marker23 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -354,9 +355,9 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker23.addTo(detailMarkers);
 //Ranch marker 6
-var marker2 = L.marker([coordinates])
+var marker24 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -364,7 +365,7 @@ var marker2 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker24.addTo(detailMarkers);
 
 
 // Set minimum zoom level for markers to appear
@@ -389,6 +390,8 @@ map.on('zoomend', function() {
     }
   }
 });
+
+
 /*Tori's unique spatial analysis
 var start = turf.point([-97.94576322327491, 29.884341192968666]);
 var end = turf.point([-97.92890853609376, 29.894266669878704]);
