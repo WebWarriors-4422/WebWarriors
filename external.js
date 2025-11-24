@@ -305,6 +305,68 @@ var marker2 = L.marker([coordinates])
   `);
 marker2.addTo(detailMarkers);
 
+//Ranch marker 1
+var marker1 = L.marker([coordinates])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Location Name</h3>
+      <img src="path/to/your/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker1.addTo(detailMarkers);
+//Ranch marker 2
+var marker2 = L.marker([coordinates])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker2.addTo(detailMarkers);
+//Ranch marker 3
+var marker2 = L.marker([coordinates])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker2.addTo(detailMarkers);
+//Ranch marker 4
+var marker2 = L.marker([coordinates])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker2.addTo(detailMarkers);
+//Ranch marker 5
+var marker2 = L.marker([coordinates])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker2.addTo(detailMarkers);
+//Ranch marker 6
+var marker2 = L.marker([coordinates])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker2.addTo(detailMarkers);
+
+
 // Set minimum zoom level for markers to appear
 var minZoomForMarkers = 14;
 
