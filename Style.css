@@ -9,7 +9,7 @@ html, body, #map {
 
 /*updated About Us Button*/
 #info-box .dropbtn {
-  background-color: #4CAF50;
+  background-color: #41ab5d; /*original color 4CAF50;*/
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -72,7 +72,7 @@ html, body, #map {
   left: 0;
   width: 420px;
   height: 100vh;
-  background-color: #2c5f6f;
+  background-color: #66c2a4;   /*original color 2c5f6f;*/
   color: white;
   padding: 30px;
   box-sizing: border-box;
@@ -161,7 +161,7 @@ html, body, #map {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #1a3d47;
+  background-color: #238b45;    /*original color 1a3d47;*/
   color: white;
   padding: 15px 30px;
   font-size: 12px;
