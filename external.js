@@ -408,17 +408,18 @@ var marker13 = L.marker([29.86498, -97.93865])
   `);
 marker13.addTo(detailMarkers);
 
-//Bishop marker 1
-var marker13 = L.marker([coordinates])
+//Bishop marker 1 - Belvin
+var marker13 = L.marker([29.87440, -97.95551])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Location Name</h3>
-      <img src="path/to/your/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAH8ingSCafRYlxnp0mypDvAR06K0GGLO4vvckmxp7JArI?e=sx7Sbe.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker13.addTo(detailMarkers);
-//Bishop marker 2
+
+/*//Bishop marker 2
 var marker14 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
