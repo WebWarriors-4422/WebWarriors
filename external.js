@@ -220,39 +220,41 @@ document.getElementById("regionSelect").addEventListener("change", function(even
 //popup windows code
 var detailMarkers = L.layerGroup();
 
-//river ridge marker 1
-var marker1 = L.marker([29.90456992620602, -97.90171161461943])
+//river ridge marker 1 - East Underpass
+var marker1 = L.marker([29.90451, -97.90174])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Location Name</h3>
-      <img src="path/to/your/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAswkpJsv0dSaEvp2sHuex1AQQujBfgfB-TaG9c4MW7M38?e=l5AGff" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker1.addTo(detailMarkers);
 
-//river ridge marker 2
-var marker2 = L.marker([coordinates])
+//river ridge marker 2 - Tree
+var marker2 = L.marker([29.90406, -97.90338])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAswkpJsv0dSaEvp2sHuex1AQQujBfgfB-TaG9c4MW7M38?e=l5AGff" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker2.addTo(detailMarkers);
-//river ridge marker 3
-var marker3 = L.marker([coordinates])
+
+//river ridge marker 3 - Hilton Inn
+var marker3 = L.marker([29.90268, -97.90436])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBqKIF7708rQ67Ijik2Pad6AbIAo7MIH8SoECjButgU9n0?e=QYqlr9" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker3.addTo(detailMarkers);
-//river ridge marker 4
-var marker4 = L.marker([coordinates])
+
+//river ridge marker 4 - Briarwood
+var marker4 = L.marker([29.90261, -97.90439])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
@@ -261,57 +263,41 @@ var marker4 = L.marker([coordinates])
     </div>
   `);
 marker4.addTo(detailMarkers);
-//river ridge marker 5
-var marker5= L.marker([coordinates])
-  .bindPopup(`
-    <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
-    </div>
-  `);
-marker5.addTo(detailMarkers);
-//river ridge marker 6
-var marker6 = L.marker([coordinates])
-  .bindPopup(`
-    <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
-    </div>
-  `);
-marker6.addTo(detailMarkers);
 
-//123 marker 1
-var marker7 = L.marker([coordinates])
+//123 marker 1 - Rattler
+var marker7 = L.marker([29.81653, -97.94341])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Location Name</h3>
-      <img src="path/to/your/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQC1vyY9LcKTQalWbx1aiLOoAVTVQAAIBh7EkKx3AIF9_EE?e=5PuqfZ" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker7.addTo(detailMarkers);
-//123 marker 2
-var marker8 = L.marker([coordinates])
+
+//123 marker 2 - Cottonwood
+var marker8 = L.marker([29.82420. -97.94253])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCGhAZlGWkGSoB77VuUwB6DASNBDF2UC_UVgbiIF3ErAvY?e=hGnrfz" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker8.addTo(detailMarkers);
-//123 marker 3
-var marker9 = L.marker([coordinates])
+
+//123 marker 3 - Old Bastrop Highway
+var marker9 = L.marker([29.82908, -97.94213])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCGhAZlGWkGSoB77VuUwB6DASNBDF2UC_UVgbiIF3ErAvY?e=hGnrfz" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAkQkMkAmGCQphzES5dH45jAXqWhxA-Df1UwQBvmTbIyuo?e=mA7Ple" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker9.addTo(detailMarkers);
+
 //123 marker 4
 var marker10 = L.marker([coordinates])
   .bindPopup(`
