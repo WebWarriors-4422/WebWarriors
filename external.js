@@ -47,49 +47,30 @@ fetch('City_Limits.geojson')
        }
      }).addTo(map);
 
-//Bishop St. line code//
-var start = turf.point([-97.9582455, 29.8768540]);
-var end = turf.point([-97.9660008, 29.8838328]);
-var bishopLine = L.polyline([
-    [29.8768540, -97.9582455],
-    [29.8838328, -97.9660008]
-], {
-    color: '#cc5500',
-    weight: 4
-}).addTo(map);
 
-//123 line Code //
-var start = turf.point([-97.9394127, 29.8572018]);
-var end = turf.point([-97.9432741, 29.8167233]);
+// Bishop St. line
 var bishopLine = L.polyline([
-    [29.8572018, -97.9394127],
-    [29.8167233, -97.9432741]
-], {
-    color: '#cc5500',
-    weight: 4
-}).addTo(map);
+  [29.8768540, -97.9582455],
+  [29.8838328, -97.9660008]
+], { color: 'red', weight: 3 }).addTo(map);
 
-//River Ridge line code
-var start = turf.point([-97.9004739, 29.9038436]);
-var end = turf.point([-97.9027857, 29.9049370]);
-var bishopLine = L.polyline([
-    [29.9038436, -97.9004739],
-    [29.9049370, -97.9027857]
-], {
-    color: '#cc5500',
-    weight: 4
-}).addTo(map);
+// Highway 123 line
+var highway123Line = L.polyline([
+  [29.8572018, -97.9394127],
+  [29.8167233, -97.9432741]
+], { color: 'red', weight: 3 }).addTo(map);
 
-//Ih35 feeder line code
-var start = turf.point([-97.9032869, 29.9041976]);
-var end = turf.point([-97.9070054, 29.8995782]);
-var bishopLine = L.polyline([
-    [29.9041976, -97.9032869],
-    [29.8995782, -97.9070054]
-], {
-    color: '#cc5500',
-    weight: 4
-}).addTo(map);
+// River Ridge line
+var riverRidgeLine = L.polyline([
+  [29.9038436, -97.9004739],
+  [29.9049370, -97.9027857]
+], { color: 'red', weight: 3 }).addTo(map);
+
+// IH-35 Feeder line (if needed for future)
+var ih35FeederLine = L.polyline([
+  [29.9041976, -97.9032869],
+  [29.8995782, -97.9070054]
+], { color: 'red', weight: 3 }).addTo(map);
 
 //Ranch road line #1 code
 var start = turf.point([-97.9498207, 29.8852674]);
