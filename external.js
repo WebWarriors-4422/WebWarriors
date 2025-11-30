@@ -189,20 +189,20 @@ document.getElementById("regionSelect").addEventListener("change", function(even
 
   var regions = {
     oldRanch: {
-      center: [29.8927, -97.9682],
-      zoom: 15
+      center: [29.8920, -97.975], //old center coordinates [29.8927, -97.9682],
+      zoom: 15.25
     },
     riverRidge: {
-      center: [29.9024941, -97.9042372],
-      zoom: 16
+      center: [29.9024941, -97.906],
+      zoom: 17
     },
     highway123: {
-      center: [29.8393052, -97.9413353],
-      zoom: 14
+      center: [29.837, -97.955],
+      zoom: 14.45
     },
     bishop: {
-      center: [29.8808391, -97.9627148],
-      zoom: 16
+      center: [29.8808391, -97.966],
+      zoom: 16.5
     },
     all: {
       center: [29.8827297, -98.01],
