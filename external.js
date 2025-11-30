@@ -380,7 +380,29 @@ var marker13 = L.marker([29.85501, -97.93989])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Location Name</h3>
-      <img src=".jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBkA657h0UyQJYu0VIXDvuGASQRXc0NaQMtbjul-ju6sgg?e=bIvfxp.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker13.addTo(detailMarkers);
+
+//123 marker 12 - Goodnight
+var marker13 = L.marker([29.85691, -97.93935])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Location Name</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCke4WcFN3sRKQ3L_ZHLKzwAVXyRY9wgEOKCYpeXUGKWV0?e=hpwiGq.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker13.addTo(detailMarkers);
+
+//123 marker 13 - Meat Market
+var marker13 = L.marker([29.86498, -97.93865])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Location Name</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQB6pooaOVpdT7SmUBxIdGT6AdRnc9MSHXQTBNgKEJjW38U?e=Y5UF2Y.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
