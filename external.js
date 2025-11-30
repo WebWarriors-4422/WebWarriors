@@ -298,7 +298,7 @@ var marker9 = L.marker([29.82908, -97.94213])
   `);
 marker9.addTo(detailMarkers);
 
-//123 marker 4
+/*//123 marker 4
 var marker10 = L.marker([coordinates])
   .bindPopup(`
     <div style="width: 200px;">
@@ -449,7 +449,7 @@ var marker24 = L.marker([coordinates])
       <p>info info info.</p>
     </div>
   `);
-marker24.addTo(detailMarkers);
+marker24.addTo(detailMarkers);*/
 
 
 // Set minimum zoom level for markers to appear
@@ -474,7 +474,14 @@ map.on('zoomend', function() {
     }
   }
 });
-
+// Center map on marker when popup opens
+detailMarkers.eachLayer(function(layer) {
+  layer.on('popupopen', function(e) {
+    var px = map.project(e.popup._latlng);
+    px.y -= e.popup._container.clientHeight/2;
+    map.panTo(map.unproject(px), {animate: true});
+  });
+});
 
 /*Tori's unique spatial analysis
 var start = turf.point([-97.94576322327491, 29.884341192968666]);
