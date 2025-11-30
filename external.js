@@ -225,7 +225,7 @@ var marker1 = L.marker([29.90451, -97.90174])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Location Name</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAswkpJsv0dSaEvp2sHuex1AQQujBfgfB-TaG9c4MW7M38?e=l5AGff" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAswkpJsv0dSaEvp2sHuex1AQQujBfgfB-TaG9c4MW7M38?e=l5AGff.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -236,7 +236,7 @@ var marker2 = L.marker([29.90406, -97.90338])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAswkpJsv0dSaEvp2sHuex1AQQujBfgfB-TaG9c4MW7M38?e=l5AGff" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAswkpJsv0dSaEvp2sHuex1AQQujBfgfB-TaG9c4MW7M38?e=l5AGff.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -247,7 +247,7 @@ var marker3 = L.marker([29.90268, -97.90436])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBqKIF7708rQ67Ijik2Pad6AbIAo7MIH8SoECjButgU9n0?e=QYqlr9" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBqKIF7708rQ67Ijik2Pad6AbIAo7MIH8SoECjButgU9n0?e=QYqlr9.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -258,7 +258,7 @@ var marker4 = L.marker([29.90261, -97.90439])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQD78LWFR8ZqQqd48kVrPNMTAaCQuWP8h2hL5oWYVJ2ReHw?e=dr03Gj.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -269,7 +269,7 @@ var marker7 = L.marker([29.81653, -97.94341])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Location Name</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQC1vyY9LcKTQalWbx1aiLOoAVTVQAAIBh7EkKx3AIF9_EE?e=5PuqfZ" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQC1vyY9LcKTQalWbx1aiLOoAVTVQAAIBh7EkKx3AIF9_EE?e=5PuqfZ.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -280,7 +280,7 @@ var marker8 = L.marker([29.82420, -97.94253])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCGhAZlGWkGSoB77VuUwB6DASNBDF2UC_UVgbiIF3ErAvY?e=hGnrfz" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCGhAZlGWkGSoB77VuUwB6DASNBDF2UC_UVgbiIF3ErAvY?e=hGnrfz.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -291,43 +291,67 @@ var marker9 = L.marker([29.82908, -97.94213])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCGhAZlGWkGSoB77VuUwB6DASNBDF2UC_UVgbiIF3ErAvY?e=hGnrfz" style="width: 100%; height: auto; margin: 10px 0;">
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAkQkMkAmGCQphzES5dH45jAXqWhxA-Df1UwQBvmTbIyuo?e=mA7Ple" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCGhAZlGWkGSoB77VuUwB6DASNBDF2UC_UVgbiIF3ErAvY?e=hGnrfz.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAkQkMkAmGCQphzES5dH45jAXqWhxA-Df1UwQBvmTbIyuo?e=mA7Ple.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker9.addTo(detailMarkers);
 
-/*//123 marker 4
-var marker10 = L.marker([coordinates])
+//123 marker 4 - Clovis
+var marker10 = L.marker([29.83294, -97.94178])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQD78LWFR8ZqQqd48kVrPNMTAaCQuWP8h2hL5oWYVJ2ReHw?e=dr03Gj.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker10.addTo(detailMarkers);
-//123 marker 5
-var marker11 = L.marker([coordinates])
+
+//123 marker 5 - Creek
+var marker11 = L.marker([29.83590, -97.94145])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQC8NfHalxx3T4QmLPgzqmTKAUVMRqgffvIo_HdZAqc3L_8?e=L0XIZc.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker11.addTo(detailMarkers);
-//123 marker 6
-var marker12 = L.marker([coordinates])
+
+//123 marker 6 - Atlas
+var marker12 = L.marker([29.84382, -97.94063])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQC8NfHalxx3T4QmLPgzqmTKAUVMRqgffvIo_HdZAqc3L_8?e=L0XIZc,jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker12.addTo(detailMarkers);
+
+//123 marker 7 - Sunoco
+var marker13 = L.marker([29.84511, -97.94055])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Location Name</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAOQiRnAEEvSZBC7nutRbVIAVrO7MRsXkgpUD85wYpvfLk?e=Rlx0Rl.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker13.addTo(detailMarkers);
+
+//123 marker 8 - Redwood
+var marker13 = L.marker([29.84750, -97.94035])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Location Name</h3>
+      <img src=".jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker13.addTo(detailMarkers);
 
 //Bishop marker 1
 var marker13 = L.marker([coordinates])
