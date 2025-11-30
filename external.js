@@ -52,25 +52,25 @@ fetch('City_Limits.geojson')
 var bishopLine = L.polyline([
   [29.8768540, -97.9582455],
   [29.8838328, -97.9660008]
-], { color: 'red', weight: 3 }).addTo(map);
+], { color: '#cc5500', weight: 4 }).addTo(map);
 
 // Highway 123 line
 var highway123Line = L.polyline([
   [29.8572018, -97.9394127],
   [29.8167233, -97.9432741]
-], { color: 'red', weight: 3 }).addTo(map);
+], { color: '#cc5500', weight: 4 }).addTo(map);
 
 // River Ridge line
 var riverRidgeLine = L.polyline([
   [29.9038436, -97.9004739],
   [29.9049370, -97.9027857]
-], { color: 'red', weight: 3 }).addTo(map);
+], { color: '#cc5500', weight: 4 }).addTo(map);
 
 // IH-35 Feeder line (if needed for future)
 var ih35FeederLine = L.polyline([
   [29.9041976, -97.9032869],
   [29.8995782, -97.9070054]
-], { color: 'red', weight: 3 }).addTo(map);
+], { color: '#cc5500', weight: 4 }).addTo(map);
 
 //Ranch road line #1 code
 var start = turf.point([-97.9498207, 29.8852674]);
@@ -99,9 +99,9 @@ var bishopLine = L.polyline([
     [29.8869012, -97.9534626],
     [29.8882448, -97.9543256]
 ], {
-    color: 'purple',
+    color: '#cc5500',
     weight: 4
-}).addTo(map);  
+}).addTo(map);
 //Ranch road line #4 code
 var start = turf.point([-97.9543256, 29.8882448]);
 var end = turf.point([-97.9551311, 29.8898516]);
@@ -109,7 +109,7 @@ var bishopLine = L.polyline([
     [29.8882448, -97.9543256],
     [29.8898516, -97.9551311]
 ], {
-    color: 'purple',
+    color: '#cc5500',
     weight: 4
 }).addTo(map);
 //Ranch road line #5 code
@@ -119,9 +119,9 @@ var bishopLine = L.polyline([
     [29.8898516, -97.9551311],
     [29.8934704, -97.9586877]
 ], {
-    color: 'purple',
+    color: '#cc5500',
     weight: 4
-}).addTo(map);  
+}).addTo(map);
 //Ranch road line #6 code
 var start = turf.point([-97.9586877, 29.8934704]);
 var end = turf.point([-97.9604295, 29.8949989]);
@@ -129,7 +129,7 @@ var bishopLine = L.polyline([
     [29.8934704, -97.9586877],
     [29.8949989, -97.9604295]
 ], {
-    color: 'purple',
+    color: '#cc5500',
     weight: 4
 }).addTo(map);
 //Ranch road line #7 code
@@ -139,7 +139,7 @@ var bishopLine = L.polyline([
     [29.8949989, -97.9604295],
     [29.8963289, -97.9642005]
 ], {
-    color: 'purple',
+    color: '#cc5500',
     weight: 4
 }).addTo(map);
 //Ranch road line #8 code
@@ -149,7 +149,7 @@ var bishopLine = L.polyline([
     [29.8963289, -97.9642005],
     [29.8970408, -97.9682708]
 ], {
-    color: 'purple',
+    color: '#cc5500',
     weight: 4
 }).addTo(map);
 //Ranch road line #9 code
@@ -159,7 +159,7 @@ var bishopLine = L.polyline([
     [29.8970408, -97.9682708],
     [29.8988995, -97.9726911]
 ], {
-    color: 'purple',
+    color: '#cc5500',
     weight: 4
 }).addTo(map);
 //Ranch road line #10 code
@@ -169,7 +169,7 @@ var bishopLine = L.polyline([
     [29.8988995, -97.9726911],
     [29.8992520, -97.9789161]
 ], {
-    color: 'purple',
+    color: '#cc5500',
     weight: 4
 }).addTo(map);
 //Ranch road line #11 code
@@ -179,7 +179,7 @@ var bishopLine = L.polyline([
     [29.8992520, -97.9789161],
     [29.9004806, -97.9838520]
 ], {
-    color: 'purple',
+    color: '#cc5500',
     weight: 4
 }).addTo(map);
 
@@ -276,7 +276,7 @@ var marker7 = L.marker([29.81653, -97.94341])
 marker7.addTo(detailMarkers);
 
 //123 marker 2 - Cottonwood
-var marker8 = L.marker([29.82420. -97.94253])
+var marker8 = L.marker([29.82420, -97.94253])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
