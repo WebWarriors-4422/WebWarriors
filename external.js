@@ -347,6 +347,39 @@ var marker13 = L.marker([29.84750, -97.94035])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Location Name</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQDJ5V-OQ06VSI6CwMBMEjM5AbP6GHPcTBQjjEyc7MUN32g?e=Z1L50Z.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker13.addTo(detailMarkers);
+
+//123 marker 9 - Wonder World Redwood
+var marker13 = L.marker([29.84626, -97.94107])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Location Name</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQC5iu-M0_o0QYy5RjRhsbNrAf3ixYWRxv0mhmN8IFPl8-A?e=Gr96G1.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker13.addTo(detailMarkers);
+
+//123 marker 10 - Crawford
+var marker13 = L.marker([29.85305, -97.93982])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Location Name</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCazgInxeL-R5FCeabL0YxkAWQcTS0BsUgACuYAqVXUtlw?e=tiAzsm.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker13.addTo(detailMarkers);
+
+//123 marker 11 - De Zavala
+var marker13 = L.marker([29.85501, -97.93989])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Location Name</h3>
       <img src=".jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
