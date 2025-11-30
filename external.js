@@ -51,7 +51,8 @@ fetch('City_Limits.geojson')
 // Bishop St. line
 var bishopLine = L.polyline([
   [29.8768540, -97.9582455],
-  [29.8838328, -97.9660008]
+  [29.8838328, -97.9660008],
+  [29.87440, -97.95551]
 ], { color: '#cc5500', weight: 4 }).addTo(map);
 
 // Highway 123 line
@@ -201,7 +202,7 @@ document.getElementById("regionSelect").addEventListener("change", function(even
       zoom: 14.45
     },
     bishop: {
-      center: [29.8808391, -97.966],
+      center: [29.879, -97.963],
       zoom: 16.5
     },
     all: {
