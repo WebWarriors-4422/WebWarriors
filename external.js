@@ -58,7 +58,8 @@ var bishopLine = L.polyline([
 // Highway 123 line
 var highway123Line = L.polyline([
   [29.8572018, -97.9394127],
-  [29.8167233, -97.9432741]
+  [29.8167233, -97.9432741],
+  [29.86498, -97.93865]
 ], { color: '#cc5500', weight: 4 }).addTo(map);
 
 // River Ridge line
@@ -198,8 +199,8 @@ document.getElementById("regionSelect").addEventListener("change", function(even
       zoom: 17
     },
     highway123: {
-      center: [29.837, -97.955],
-      zoom: 14.45
+      center: [29.842, -97.955],
+      zoom: 14
     },
     bishop: {
       center: [29.879, -97.963],
@@ -560,7 +561,7 @@ detailMarkers.eachLayer(function(layer) {
   layer.on('popupopen', function(e) {
     var px = map.project(e.popup._latlng);
     px.y -= e.popup._container.clientHeight/2;
-    map.panTo(map.unproject(px), {animate: true});
+    map.panTo(map.unproject(px), {animate: true, duration: 2.0});
   });
 });
 
