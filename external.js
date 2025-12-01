@@ -250,8 +250,8 @@ marker2.addTo(detailMarkers);
 var marker3 = L.marker([29.90268, -97.90436])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBqKIF7708rQ67Ijik2Pad6AbIAo7MIH8SoECjButgU9n0?e=QYqlr9.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>River Ridge Parkway - Hilton Inn</h3>
+      <img src="Resources/RiverRidgeHilton.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -262,7 +262,7 @@ var marker4 = L.marker([29.90261, -97.90439])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQD78LWFR8ZqQqd48kVrPNMTAaCQuWP8h2hL5oWYVJ2ReHw?e=dr03Gj.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -306,8 +306,8 @@ marker9.addTo(detailMarkers);
 var marker10 = L.marker([29.83294, -97.94178])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQD78LWFR8ZqQqd48kVrPNMTAaCQuWP8h2hL5oWYVJ2ReHw?e=dr03Gj.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Highway 123 - Clovis</h3>
+      <img src="Resources/123Clovis.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
