@@ -188,7 +188,7 @@ var bishopLine = L.polyline([
 }).addTo(map);
 
 //JavaScript code for road query
-document.getElementById("regionSelect").addEventListener("change", function(event) {
+document.getElementById("regionSelect").addEventListener("click", function(event) {
   var region = event.target.value;
 
   var regions = {
