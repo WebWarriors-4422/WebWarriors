@@ -224,7 +224,7 @@ document.getElementById("regionSelect").addEventListener("click", function(event
 //popup windows code
 var detailMarkers = L.layerGroup();
 
-//river ridge marker 1 - East Underpass
+/*/river ridge marker 1 - East Underpass
 var marker1 = L.marker([29.90451, -97.90174])
   .bindPopup(`
     <div style="width: 200px;">
@@ -244,7 +244,7 @@ var marker2 = L.marker([29.90406, -97.90338])
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);
+marker2.addTo(detailMarkers);*/
 
 //river ridge marker 3 - Hilton Inn
 var marker3 = L.marker([29.90268, -97.90436])
@@ -257,7 +257,7 @@ var marker3 = L.marker([29.90268, -97.90436])
   `);
 marker3.addTo(detailMarkers);
 
-//river ridge marker 4 - Briarwood
+/*/river ridge marker 4 - Briarwood
 var marker4 = L.marker([29.90261, -97.90439])
   .bindPopup(`
     <div style="width: 200px;">
@@ -266,14 +266,14 @@ var marker4 = L.marker([29.90261, -97.90439])
       <p>info info info.</p>
     </div>
   `);
-marker4.addTo(detailMarkers);
+marker4.addTo(detailMarkers);*/
 
 //123 marker 1 - Rattler
 var marker7 = L.marker([29.81653, -97.94341])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Location Name</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQC1vyY9LcKTQalWbx1aiLOoAVTVQAAIBh7EkKx3AIF9_EE?e=5PuqfZ.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Highway 123 - Rattler</h3>
+      <img src="Resources/123Rattler.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -283,14 +283,14 @@ marker7.addTo(detailMarkers);
 var marker8 = L.marker([29.82420, -97.94253])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCGhAZlGWkGSoB77VuUwB6DASNBDF2UC_UVgbiIF3ErAvY?e=hGnrfz.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Highway 123 - Cottonwood</h3>
+      <img src="Resources/123Cottonwood.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker8.addTo(detailMarkers);
 
-//123 marker 3 - Old Bastrop Highway
+/*/123 marker 3 - Old Bastrop Highway
 var marker9 = L.marker([29.82908, -97.94213])
   .bindPopup(`
     <div style="width: 200px;">
@@ -300,7 +300,7 @@ var marker9 = L.marker([29.82908, -97.94213])
       <p>info info info.</p>
     </div>
   `);
-marker9.addTo(detailMarkers);
+marker9.addTo(detailMarkers);*/
 
 //123 marker 4 - Clovis
 var marker10 = L.marker([29.83294, -97.94178])
@@ -313,7 +313,7 @@ var marker10 = L.marker([29.83294, -97.94178])
   `);
 marker10.addTo(detailMarkers);
 
-//123 marker 5 - Creek
+/*/123 marker 5 - Creek
 var marker11 = L.marker([29.83590, -97.94145])
   .bindPopup(`
     <div style="width: 200px;">
@@ -807,7 +807,7 @@ var marker18 = L.marker([29.88503, -97.94925])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker18.addTo(detailMarkers);*/
 
 // Set minimum zoom level for markers to appear
 var minZoomForMarkers = 14;
