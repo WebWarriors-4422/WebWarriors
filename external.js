@@ -329,7 +329,7 @@ var marker12 = L.marker([29.84382, -97.94063])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQC8NfHalxx3T4QmLPgzqmTKAUVMRqgffvIo_HdZAqc3L_8?e=L0XIZc,jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://onedrive.live.com/download/i/c/a83f359f7f55dd13/IQTZtBNxEBsrTrDZP_7yxF4nAfD8YX6ZdA6NpJursDr7z9o?height=256.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
