@@ -224,7 +224,7 @@ document.getElementById("regionSelect").addEventListener("click", function(event
 //popup windows code
 var detailMarkers = L.layerGroup();
 
-/*/river ridge marker 1 - East Underpass
+/*river ridge marker 1 - East Underpass
 var marker1 = L.marker([29.90451, -97.90174])
   .bindPopup(`
     <div style="width: 200px;">
@@ -257,7 +257,7 @@ var marker3 = L.marker([29.90268, -97.90436])
   `);
 marker3.addTo(detailMarkers);
 
-/*/river ridge marker 4 - Briarwood
+/*river ridge marker 4 - Briarwood
 var marker4 = L.marker([29.90261, -97.90439])
   .bindPopup(`
     <div style="width: 200px;">
@@ -269,7 +269,7 @@ var marker4 = L.marker([29.90261, -97.90439])
 marker4.addTo(detailMarkers);*/
 
 //123 marker 1 - Rattler
-var marker7 = L.marker([29.81653, -97.94341])
+var marker5 = L.marker([29.81653, -97.94341])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Highway 123 - Rattler</h3>
@@ -277,10 +277,10 @@ var marker7 = L.marker([29.81653, -97.94341])
       <p>info info info.</p>
     </div>
   `);
-marker7.addTo(detailMarkers);
+marker5.addTo(detailMarkers);
 
 //123 marker 2 - Cottonwood
-var marker8 = L.marker([29.82420, -97.94253])
+var marker6 = L.marker([29.82420, -97.94253])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Highway 123 - Cottonwood</h3>
@@ -288,22 +288,22 @@ var marker8 = L.marker([29.82420, -97.94253])
       <p>info info info.</p>
     </div>
   `);
-marker8.addTo(detailMarkers);
+marker6.addTo(detailMarkers);
 
-/*/123 marker 3 - Old Bastrop Highway
-var marker9 = L.marker([29.82908, -97.94213])
+//123 marker 3 - Old Bastrop Highway
+var marker7 = L.marker([29.82908, -97.94213])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCGhAZlGWkGSoB77VuUwB6DASNBDF2UC_UVgbiIF3ErAvY?e=hGnrfz.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAkQkMkAmGCQphzES5dH45jAXqWhxA-Df1UwQBvmTbIyuo?e=mA7Ple.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Highway 123 - Old Bastrop</h3>
+      <img src="Resources/123SOldBastropN.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="Resources/123SOldBastropS.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker9.addTo(detailMarkers);*/
+marker7.addTo(detailMarkers);
 
 //123 marker 4 - Clovis
-var marker10 = L.marker([29.83294, -97.94178])
+var marker8 = L.marker([29.83294, -97.94178])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Highway 123 - Clovis</h3>
@@ -311,108 +311,108 @@ var marker10 = L.marker([29.83294, -97.94178])
       <p>info info info.</p>
     </div>
   `);
-marker10.addTo(detailMarkers);
+marker8.addTo(detailMarkers);
 
-/*/123 marker 5 - Creek
-var marker11 = L.marker([29.83590, -97.94145])
+//123 marker 5 - Creek
+var marker9 = L.marker([29.83590, -97.94145])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQC8NfHalxx3T4QmLPgzqmTKAUVMRqgffvIo_HdZAqc3L_8?e=L0XIZc.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Highway 123 - Creek</h3>
+      <img src="Resources/123Creek.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker9.addTo(detailMarkers);
+
+//123 marker 6 - Atlas
+var marker10 = L.marker([29.84382, -97.94063])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Highway 123 - Atlas</h3>
+      <img src="Resources/123Atlas.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker10.addTo(detailMarkers);
+
+//123 marker 7 - Sunoco
+var marker11 = L.marker([29.84511, -97.94055])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Highway 123 - Sunoco</h3>
+      <img src="Resources/123Sunoco.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker11.addTo(detailMarkers);
 
-//123 marker 6 - Atlas
-var marker12 = L.marker([29.84382, -97.94063])
+//123 marker 8 - Redwood
+var marker12 = L.marker([29.84750, -97.94035])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://onedrive.live.com/download/i/c/a83f359f7f55dd13/IQTZtBNxEBsrTrDZP_7yxF4nAfD8YX6ZdA6NpJursDr7z9o?height=256.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Highway 123 - Redwood</h3>
+      <img src="Resources/123Redwood.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker12.addTo(detailMarkers);
 
-//123 marker 7 - Sunoco
-var marker13 = L.marker([29.84511, -97.94055])
-  .bindPopup(`
-    <div style="width: 200px;">
-      <h3>Location Name</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAOQiRnAEEvSZBC7nutRbVIAVrO7MRsXkgpUD85wYpvfLk?e=Rlx0Rl.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
-    </div>
-  `);
-marker13.addTo(detailMarkers);
-
-//123 marker 8 - Redwood
-var marker13 = L.marker([29.84750, -97.94035])
-  .bindPopup(`
-    <div style="width: 200px;">
-      <h3>Location Name</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQDJ5V-OQ06VSI6CwMBMEjM5AbP6GHPcTBQjjEyc7MUN32g?e=Z1L50Z.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
-    </div>
-  `);
-marker13.addTo(detailMarkers);
-
 //123 marker 9 - Wonder World Redwood
 var marker13 = L.marker([29.84626, -97.94107])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Location Name</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQC5iu-M0_o0QYy5RjRhsbNrAf3ixYWRxv0mhmN8IFPl8-A?e=Gr96G1.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Highway 123 - Wonder World Redwood</h3>
+      <img src="Resources/123WestRedwood.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker13.addTo(detailMarkers);
 
 //123 marker 10 - Crawford
-var marker13 = L.marker([29.85305, -97.93982])
+var marker14 = L.marker([29.85305, -97.93982])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Location Name</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCazgInxeL-R5FCeabL0YxkAWQcTS0BsUgACuYAqVXUtlw?e=tiAzsm.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Highway 123 - Crawford</h3>
+      <img src="Resources/123Crawford.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker13.addTo(detailMarkers);
+marker14.addTo(detailMarkers);
 
 //123 marker 11 - De Zavala
-var marker13 = L.marker([29.85501, -97.93989])
+var marker15 = L.marker([29.85501, -97.93989])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Location Name</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBkA657h0UyQJYu0VIXDvuGASQRXc0NaQMtbjul-ju6sgg?e=bIvfxp.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Highway 123 - DeZavala</h3>
+      <img src="Resources/123DeZavala.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker13.addTo(detailMarkers);
+marker15.addTo(detailMarkers);
 
 //123 marker 12 - Goodnight
-var marker13 = L.marker([29.85691, -97.93935])
+var marker16 = L.marker([29.85691, -97.93935])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Location Name</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCke4WcFN3sRKQ3L_ZHLKzwAVXyRY9wgEOKCYpeXUGKWV0?e=hpwiGq.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Highway 123 - Goodnight</h3>
+      <img src="Resources/123Goodnight.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker13.addTo(detailMarkers);
+marker16.addTo(detailMarkers);
 
 //123 marker 13 - Meat Market
-var marker13 = L.marker([29.86498, -97.93865])
+var marker17 = L.marker([29.86498, -97.93865])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Location Name</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQB6pooaOVpdT7SmUBxIdGT6AdRnc9MSHXQTBNgKEJjW38U?e=Y5UF2Y.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Highway 123 - Meat Market</h3>
+      <img src="Resources/123MeatMarket.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker13.addTo(detailMarkers);
+marker17.addTo(detailMarkers);
 
-//Bishop marker 1 - Belvin
+/*//Bishop marker 1 - Belvin
 var marker13 = L.marker([29.87440, -97.95551])
   .bindPopup(`
     <div style="width: 200px;">
