@@ -78,6 +78,7 @@ var ih35FeederLine = L.polyline([
 var start = turf.point([-97.9498207, 29.8852674]);
 var end = turf.point([-97.9513770, 29.8852677]);
 var bishopLine = L.polyline([
+    [29.88463, -97.94900],
     [29.8852674, -97.9498207],
     [29.8852677, -97.9513770]
 ], {
@@ -179,7 +180,8 @@ var start = turf.point([-97.9789161, 29.8992520]);
 var end = turf.point([-97.9838520, 29.9004806]);
 var bishopLine = L.polyline([
     [29.8992520, -97.9789161],
-    [29.9004806, -97.9838520]
+    [29.9004806, -97.9838520],
+    [29.90043, -97.98427]
 ], {
     color: '#cc5500',
     weight: 4
@@ -191,7 +193,7 @@ document.getElementById("regionSelect").addEventListener("change", function(even
 
   var regions = {
     oldRanch: {
-      center: [29.8920, -97.975], //old center coordinates [29.8927, -97.9682],
+      center: [29.8920, -97.974],
       zoom: 15.25
     },
     riverRidge: {
