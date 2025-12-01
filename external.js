@@ -415,124 +415,397 @@ var marker13 = L.marker([29.87440, -97.95551])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Location Name</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAH8ingSCafRYlxnp0mypDvAR06K0GGLO4vvckmxp7JArI?e=sx7Sbe.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAH8ingSCafRYlxnp0mypDvAR06K0GGLO4vvckmxp7JArI?e=4jvtNv.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker13.addTo(detailMarkers);
 
-/*//Bishop marker 2
-var marker14 = L.marker([coordinates])
+//Bishop marker 2 - Prospect
+var marker14 = L.marker([29.87689, -97.95833])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBeqHXHHeZ8QpeXcFhY9zXyAS1MseQNtQoW-sN2b2DbLbE?e=MRG43n.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker14.addTo(detailMarkers);
-//Bishop marker 3
-var marker15 = L.marker([coordinates])
+
+//Bishop marker 3 - Progress
+var marker15 = L.marker([29.87805, -97.95946])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBf7U65Cb_FSoKnNJjrxd6-AeLhga0B7iJFBbBJhuiZa7s?e=bPm76s.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker15.addTo(detailMarkers);
-//Bishop marker 4
-var marker16 = L.marker([coordinates])
+
+//Bishop marker 4 - Marlton
+var marker16 = L.marker([29.88094, -97.96272])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAjXy04LVRsSos_Sv-lycL9AbIa__8c_1lNqPUGemtIL-4?e=0HMLDG.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker16.addTo(detailMarkers);
-//Bishop marker 5
-var marker17 = L.marker([coordinates])
+
+//Bishop marker 5 - Franklin
+var marker17 = L.marker([29.88382, -97.96598])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQA_1ikYKByySp1ctkDJysR3AS8cRLW-FEhNrBEfxbo8kTQ?e=fjb92t.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker17.addTo(detailMarkers);
-//Bishop marker 6
-var marker18 = L.marker([coordinates])
+
+//Ranch Road 12 marker 1 - La Cima
+var marker18 = L.marker([29.90043, -97.98427])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQDA4rBwG-kERJxgRSN4EI37AQPz69lpFf9oMg2xRk151a0?e=P0nLf4.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
 marker18.addTo(detailMarkers);
 
-//Ranch marker 1
-var marker19 = L.marker([coordinates])
-  .bindPopup(`
-    <div style="width: 200px;">
-      <h3>Location Name</h3>
-      <img src="path/to/your/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
-    </div>
-  `);
-marker19.addTo(detailMarkers);
-//Ranch marker 2
-var marker20 = L.marker([coordinates])
+//Ranch Road 12 marker 2 - RV Lot
+var marker18 = L.marker([29.89920, -97.97832])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQB2-ETPtYUXQbkDKpJFjCnZAfRVlTRDoWiZaw54RjYKm3s?e=gmJVWW.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker20.addTo(detailMarkers);
-//Ranch marker 3
-var marker21 = L.marker([coordinates])
-  .bindPopup(`
-    <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
-    </div>
-  `);
-marker21.addTo(detailMarkers);
-//Ranch marker 4
-var marker22 = L.marker([coordinates])
-  .bindPopup(`
-    <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
-    </div>
-  `);
-marker22.addTo(detailMarkers);
-//Ranch marker 5
-var marker23 = L.marker([coordinates])
-  .bindPopup(`
-    <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
-    </div>
-  `);
-marker23.addTo(detailMarkers);
-//Ranch marker 6
-var marker24 = L.marker([coordinates])
-  .bindPopup(`
-    <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="path/to/another/image.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
-    </div>
-  `);
-marker24.addTo(detailMarkers);*/
+marker18.addTo(detailMarkers);
 
+//Ranch Road 12 marker 3 - Country Estates
+var marker18 = L.marker([29.89899, -97.97375])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBhK_u02kl9RIcVz-Yd8HmLAUSoXaDw7wRWraV7_0BeIrA?e=KswrAb.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 4 - Crestwood
+var marker18 = L.marker([29.89798, -97.97047])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQDWB5Zoo-7HTL1ngbeAse-UAQji5tkIZO_8ygHiFq-tMbA?e=3TDABS.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 5 - Dive Shop
+var marker18 = L.marker([29.89789, -97.97068])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCcTxmllCyiSZUOYVZMxUcHARdrse7HDkiyKTLrSxZ_BfY?e=7JIOMs.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 6 - Ringtail
+var marker18 = L.marker([29.89729, -97.96881])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCwZ70k0GzDSZhXcLvqgy3jAflS-v78-RogV3sHYgn24d8?e=Optdj6.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 7 - Baptist Church
+var marker18 = L.marker([29.89711, -97.96843])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAL7zkqPmk7Q753HBhlECulASV7cxvJxMas03k2qSfZ_pE?e=bWGB3u.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 8 - The Edge
+var marker18 = L.marker([29.89655, -97.96626])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQB3GYED-XtkTqdEftR_hm0jAVL6ntwK3P8hUoF__avgbc0?e=5QUSx3.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 9 - CVS
+var marker18 = L.marker([29.89645, -97.96555])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQB8Y2nyoFdeTKk_g0UGmU3sAR4-BY5uxY4V6uZHneH-mEI?e=un2JD9.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 10 - The Retreat
+var marker18 = L.marker([29.89471, -97.96045])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQB0fgc4UE3vS4ind2u3QjSzAaN403u1kmo2WRVfPF3epNs?e=cbGowf.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 11 - Tree
+var marker18 = L.marker([29.89392, -97.95938])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAKSIVS48JoR7qazetDtywyAcrInGjKme3cpWSu95gFxdQ?e=rUU1Ob.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 12 - Stone House
+var marker18 = L.marker([29.89344, -97.95898])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQB5WP9kV2ayQq_d8ARGCcfvAZ9sv7_CXBBAcX7fO1_SC48?e=4dEcdN.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 13 - Highcrest
+var marker18 = L.marker([29.89306, -97.95841])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCecqTqdZu6Qb-iKJmceLnxAVrFFazxR8kWUyALkr5yrhk?e=fGrEar.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 14 - Blind Hill Down
+var marker18 = L.marker([29.89256, -97.95819])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCorJOQpipsSZj6U_lOkENCAQJwCiSeG5PIxzTnVXzehrU?e=egI9IX.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 15 - Blind Hill Up
+var marker18 = L.marker([29.89244, -97.95793])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQA2wcUvf2ubRqM_KXpVdKliASA9PKpK-sm7x-693Gsjq9I?e=LFTjFd.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 16 - Franklin
+var marker18 = L.marker([29.89166, -97.95731])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCe_GOY1w4tSb6xk1eqVzRiAX7cWN4p6NDmF7zYQcDHOr0?e=Zh7bhB.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 17 - Alley
+var marker18 = L.marker([29.89123, -97.95688])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQDy_5tcyu8eQ554kFbgaaY2AfoFaammBBzQPIjh3l-MJQw?e=zSMpfB.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 18 - Wake The Dead
+var marker18 = L.marker([29.89131, -97.95670])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCFQa4L4uZJRKUf1F37ADKpAQMMnItBTJi95TpUCgivOPM?e=o2VajY.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 19 - Chepo's
+var marker18 = L.marker([29.89052, -97.95584])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQApYl66vncnQIL1_EhKQf6PAfA0phcgRDOW4iKM7qbvMPg?e=TP9CvR.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 20 - Holland
+var marker18 = L.marker([29.89009, -97.95561])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAgqtCuNQU2QI1_YxpZrXMCASgBL4TAXKl7x_1Hoz1I64Y?e=1nruyK.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 21 - Dear Sign
+var marker18 = L.marker([29.88920, -97.95490])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBTDXRgBXlCQ58coF1yt9rfAY0ut71Cd0cv7iTABpaulo0?e=Xoyqw5.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 22 - Cemetery Crossing
+var marker18 = L.marker([29.88780, -97.95423])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCRRP7k3nXTRKRSWi-faa4oAfeO_BsuWNccKvW0-xhJXVo?e=cLUdOl.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQDYLEHDyh1HTrfvztmgEs60AUB2qzEss1xoYidPZdeV9_g?e=wXcfbD.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 23 - Blanco Hall
+var marker18 = L.marker([29.88785, -97.95409])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQA5HDbVuNAJT6HRWOG1EgthAQDuQ3brdEbaHn3Dxrv70cg?e=u6evz8.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 24 - Disc Golf
+var marker18 = L.marker([29.88618, -97.95280])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCvUpnlHml7RqZrVTE0TtOFAZd7JS4DTBo1_zXKqw_z5Io?e=DAijfy.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 25 - Smith House
+var marker18 = L.marker([29.88577, -97.95209])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAb3dV-fdbCT5WVYubLND_wAcOCmqSEiUXK-XS8QgmCPqI?e=TcQEE0.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 26 - Blanco
+var marker18 = L.marker([29.88517, -97.95153])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQA6S2TcKJnXQbWkEhoCvxgFATVsI3vs5cPNgMYxQW_2m5I?e=wEGp7h.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Ranch Road 12 marker 27 - Coers
+var marker18 = L.marker([29.89163, -97.95706])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQA6S2TcKJnXQbWkEhoCvxgFATVsI3vs5cPNgMYxQW_2m5I?e=wEGp7h.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Oscar Smith marker 1 - Blanco
+var marker18 = L.marker([29.88513, -97.95135])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBjqNAxKGybSYCpOWJK3ypkAazwXy0l3-7R0dmZe0I8qiM?e=UcRC1n.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Oscar Smith marker 2 - Moore
+var marker18 = L.marker([29.88526, -97.94966])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQDbRVudn4EUQbDFQ61-WyAvAcU88lOHISBJN8mJ2zgNY1U?e=JQDBfC.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Moore marker 1 - Rogers
+var marker18 = L.marker([29.88463, -97.94900])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQDfI7oThwc4T57dnvAt5YocAUYR8i3gs4jA_bL6yY28Dg0?e=DyqgCU.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
+
+//Moore marker 2 - Moeller
+var marker18 = L.marker([29.88503, -97.94925])
+  .bindPopup(`
+    <div style="width: 200px;">
+      <h3>Another Location</h3>
+      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCOqZeVl045Q6qSk6IQ8ts6ATo8pK3b5b_XXpkfI6NedFo?e=Nk1Hgp.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <p>info info info.</p>
+    </div>
+  `);
+marker18.addTo(detailMarkers);
 
 // Set minimum zoom level for markers to appear
 var minZoomForMarkers = 14;
