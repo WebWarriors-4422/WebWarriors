@@ -412,62 +412,62 @@ var marker17 = L.marker([29.86498, -97.93865])
   `);
 marker17.addTo(detailMarkers);
 
-/*//Bishop marker 1 - Belvin
-var marker13 = L.marker([29.87440, -97.95551])
+//Bishop marker 1 - Belvin
+var marker18 = L.marker([29.87440, -97.95551])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Location Name</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAH8ingSCafRYlxnp0mypDvAR06K0GGLO4vvckmxp7JArI?e=4jvtNv.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Bishop St - Belvin</h3>
+      <img src="Resources/BishopBelvin.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker13.addTo(detailMarkers);
+marker18.addTo(detailMarkers);
 
 //Bishop marker 2 - Prospect
-var marker14 = L.marker([29.87689, -97.95833])
+var marker19 = L.marker([29.87689, -97.95833])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBeqHXHHeZ8QpeXcFhY9zXyAS1MseQNtQoW-sN2b2DbLbE?e=MRG43n.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Bishop St - Prospect</h3>
+      <img src="Resources/BishopProspect.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker14.addTo(detailMarkers);
+marker19.addTo(detailMarkers);
 
 //Bishop marker 3 - Progress
-var marker15 = L.marker([29.87805, -97.95946])
+var marker20 = L.marker([29.87805, -97.95946])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBf7U65Cb_FSoKnNJjrxd6-AeLhga0B7iJFBbBJhuiZa7s?e=bPm76s.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Bishop St - Progress</h3>
+      <img src="Resources/BishopProgress.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker15.addTo(detailMarkers);
+marker20.addTo(detailMarkers);
 
 //Bishop marker 4 - Marlton
-var marker16 = L.marker([29.88094, -97.96272])
+var marker21 = L.marker([29.88094, -97.96272])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAjXy04LVRsSos_Sv-lycL9AbIa__8c_1lNqPUGemtIL-4?e=0HMLDG.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Bishop St - Marlton</h3>
+      <img src="Resources/BishopMarlton.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker16.addTo(detailMarkers);
+marker21.addTo(detailMarkers);
 
 //Bishop marker 5 - Franklin
-var marker17 = L.marker([29.88382, -97.96598])
+var marker22 = L.marker([29.88382, -97.96598])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQA_1ikYKByySp1ctkDJysR3AS8cRLW-FEhNrBEfxbo8kTQ?e=fjb92t.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Bishop St - Franklin</h3>
+      <img src="Resources/BishopFranklin.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker17.addTo(detailMarkers);
+marker22.addTo(detailMarkers);
 
-//Ranch Road 12 marker 1 - La Cima
+/*//Ranch Road 12 marker 1 - La Cima
 var marker18 = L.marker([29.90043, -97.98427])
   .bindPopup(`
     <div style="width: 200px;">
