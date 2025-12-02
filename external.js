@@ -224,12 +224,12 @@ document.getElementById("regionSelect").addEventListener("click", function(event
 //popup windows code
 var detailMarkers = L.layerGroup();
 
-/*river ridge marker 1 - East Underpass
+//river ridge marker 1 - East Underpass
 var marker1 = L.marker([29.90451, -97.90174])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Location Name</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAswkpJsv0dSaEvp2sHuex1AQQujBfgfB-TaG9c4MW7M38?e=l5AGff.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>River Ridge Parkway - East Underpass</h3>
+      <img src="Resources/RiverRidgeEastUnderpass.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -239,12 +239,12 @@ marker1.addTo(detailMarkers);
 var marker2 = L.marker([29.90406, -97.90338])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAswkpJsv0dSaEvp2sHuex1AQQujBfgfB-TaG9c4MW7M38?e=l5AGff.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>River Ridge Parkway - Frontage</h3>
+      <img src="Resources/RiverRidgeTree.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker2.addTo(detailMarkers);*/
+marker2.addTo(detailMarkers);
 
 //river ridge marker 3 - Hilton Inn
 var marker3 = L.marker([29.90268, -97.90436])
@@ -257,16 +257,16 @@ var marker3 = L.marker([29.90268, -97.90436])
   `);
 marker3.addTo(detailMarkers);
 
-/*river ridge marker 4 - Briarwood
-var marker4 = L.marker([29.90261, -97.90439])
+//river ridge marker 4 - Briarwood
+var marker4 = L.marker([29.902450190514223, -97.90452303212359])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>River Ridge Parkway - Briarwood</h3>
+      <img src="Resources/RiverRidgeBriarwood.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker4.addTo(detailMarkers);*/
+marker4.addTo(detailMarkers);
 
 //123 marker 1 - Rattler
 var marker5 = L.marker([29.81653, -97.94341])
