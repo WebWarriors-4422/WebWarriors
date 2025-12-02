@@ -206,7 +206,7 @@ document.getElementById("regionSelect").addEventListener("click", function(event
     },
     bishop: {
       center: [29.879, -97.963],
-      zoom: 16.5
+      zoom: 16
     },
     all: {
       center: [29.8827297, -98.01],
@@ -274,7 +274,7 @@ var marker5 = L.marker([29.81653, -97.94341])
     <div style="width: 200px;">
       <h3>Highway 123 - Rattler</h3>
       <img src="Resources/123Rattler.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker will be the start of a proposed sidewalk system that will connect several existing sidewalks to each other along Highway 123. This will be a benefit to the San Marcos community by encouraging pedestrians living in the appartments and neighborhood residence to commute by foot to the inner city.</p>
     </div>
   `);
 marker5.addTo(detailMarkers);
@@ -285,7 +285,7 @@ var marker6 = L.marker([29.82420, -97.94253])
     <div style="width: 200px;">
       <h3>Highway 123 - Cottonwood</h3>
       <img src="Resources/123Cottonwood.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>At this marker we propose to connect the existing sidewalk from the neighborhood to the next indicated marker.</p>
     </div>
   `);
 marker6.addTo(detailMarkers);
@@ -297,7 +297,7 @@ var marker7 = L.marker([29.82908, -97.94213])
       <h3>Highway 123 - Old Bastrop</h3>
       <img src="Resources/123SOldBastropN.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <img src="Resources/123SOldBastropS.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>At this marker the images are representing the need for a sidewalk to the South (the bottom image) of Old Bastrop Highway to connect to the existing system to the south and the need for a sidewalk to the North (the top image) to maintain the consistantcy of the system.</p>
     </div>
   `);
 marker7.addTo(detailMarkers);
@@ -308,7 +308,7 @@ var marker8 = L.marker([29.83294, -97.94178])
     <div style="width: 200px;">
       <h3>Highway 123 - Clovis</h3>
       <img src="Resources/123Clovis.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker needes a sidewalk to connect to an existing system at the Mission Trail Appartments.</p>
     </div>
   `);
 marker8.addTo(detailMarkers);
@@ -319,7 +319,7 @@ var marker9 = L.marker([29.83590, -97.94145])
     <div style="width: 200px;">
       <h3>Highway 123 - Creek</h3>
       <img src="Resources/123Creek.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for a sidewalk for pedestrians to be able to cross a creek safely, and continue the 123 sidewalk system.</p>
     </div>
   `);
 marker9.addTo(detailMarkers);
@@ -330,7 +330,7 @@ var marker10 = L.marker([29.84382, -97.94063])
     <div style="width: 200px;">
       <h3>Highway 123 - Atlas</h3>
       <img src="Resources/123Atlas.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for an existing sidewalk to continue to ensure a complete system.</p>
     </div>
   `);
 marker10.addTo(detailMarkers);
@@ -341,7 +341,7 @@ var marker11 = L.marker([29.84511, -97.94055])
     <div style="width: 200px;">
       <h3>Highway 123 - Sunoco</h3>
       <img src="Resources/123Sunoco.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>Sidewalk is needed to connect the system to the crosswalks at Redwood Road.</p>
     </div>
   `);
 marker11.addTo(detailMarkers);
@@ -352,7 +352,7 @@ var marker12 = L.marker([29.84750, -97.94035])
     <div style="width: 200px;">
       <h3>Highway 123 - Redwood</h3>
       <img src="Resources/123Redwood.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the sidewalk to continue along highway 123, heading North bound.</p>
     </div>
   `);
 marker12.addTo(detailMarkers);
@@ -363,7 +363,7 @@ var marker13 = L.marker([29.84626, -97.94107])
     <div style="width: 200px;">
       <h3>Highway 123 - Wonder World Redwood</h3>
       <img src="Resources/123WestRedwood.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for a sidewalk to follow along the intersection of Highway 123 and Wonder World Dr.</p>
     </div>
   `);
 marker13.addTo(detailMarkers);
@@ -374,7 +374,7 @@ var marker14 = L.marker([29.85305, -97.93982])
     <div style="width: 200px;">
       <h3>Highway 123 - Crawford</h3>
       <img src="Resources/123Crawford.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicatesd the need for the sidewalk to continue heading northbound along Highway 123.</p>
     </div>
   `);
 marker14.addTo(detailMarkers);
@@ -385,7 +385,7 @@ var marker15 = L.marker([29.85501, -97.93989])
     <div style="width: 200px;">
       <h3>Highway 123 - DeZavala</h3>
       <img src="Resources/123DeZavala.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for a sidewalk to connect to an existing system along the west side of Highway 123 at DeZavala Dr.</p>
     </div>
   `);
 marker15.addTo(detailMarkers);
@@ -396,7 +396,7 @@ var marker16 = L.marker([29.85691, -97.93935])
     <div style="width: 200px;">
       <h3>Highway 123 - Goodnight</h3>
       <img src="Resources/123Goodnight.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need to continue an existing sidewalk system heading northbound at Owen Goodnight Middle School.</p>
     </div>
   `);
 marker16.addTo(detailMarkers);
@@ -407,7 +407,7 @@ var marker17 = L.marker([29.86498, -97.93865])
     <div style="width: 200px;">
       <h3>Highway 123 - Meat Market</h3>
       <img src="Resources/123MeatMarket.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates where a sidewalk is needed to connect the proposed system to an existing sidewalk system to complete the pedestrian friendly infrastructure along Highway 123.</p>
     </div>
   `);
 marker17.addTo(detailMarkers);
@@ -418,7 +418,7 @@ var marker18 = L.marker([29.87440, -97.95551])
     <div style="width: 200px;">
       <h3>Bishop St - Belvin</h3>
       <img src="Resources/BishopBelvin.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for a sidewalk along Bishop St to connect to the sidewalk system along West Hopkins St to allow residents to commute by foot to areas like Downtown San Marcos, or Texas State University .</p>
     </div>
   `);
 marker18.addTo(detailMarkers);
@@ -429,7 +429,7 @@ var marker19 = L.marker([29.87689, -97.95833])
     <div style="width: 200px;">
       <h3>Bishop St - Prospect</h3>
       <img src="Resources/BishopProspect.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the area where a sidewalk is needed to connect an existing system to allow for a continuious sidewalk along Bishop St.</p>
     </div>
   `);
 marker19.addTo(detailMarkers);
@@ -440,7 +440,7 @@ var marker20 = L.marker([29.87805, -97.95946])
     <div style="width: 200px;">
       <h3>Bishop St - Progress</h3>
       <img src="Resources/BishopProgress.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for a sidewalk to continue along Bishop St.</p>
     </div>
   `);
 marker20.addTo(detailMarkers);
@@ -451,7 +451,7 @@ var marker21 = L.marker([29.88094, -97.96272])
     <div style="width: 200px;">
       <h3>Bishop St - Marlton</h3>
       <img src="Resources/BishopMarlton.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for a sidewalk to continue along Bishop St to connect to the marker at the intersection of Bishop and Franklin.</p>
     </div>
   `);
 marker21.addTo(detailMarkers);
@@ -462,7 +462,7 @@ var marker22 = L.marker([29.88382, -97.96598])
     <div style="width: 200px;">
       <h3>Bishop St - Franklin</h3>
       <img src="Resources/BishopFranklin.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk system to connect to the existing sidewalks along Craddock Avenue. Helping residents in student housing complexs like the Cottages at San Marcos have a pedestrian friendly infrastructure to get to the inner city.</p>
     </div>
   `);
 marker22.addTo(detailMarkers);
