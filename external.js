@@ -230,7 +230,7 @@ var marker1 = L.marker([29.90451, -97.90174])
     <div style="width: 200px;">
       <h3>River Ridge Parkway - East Underpass</h3>
       <img src="Resources/RiverRidgeEastUnderpass.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>This section of River Ridge is lacking a side walk thats needed to allow people living in appartment complexs like the Oasis and the Grove to be abe to safely walk to the otherside of the interstate. Crosswalks should be inplimented aswell.</p>
+      <p>This section of River Ridge is lacking a side walk that's needed to allow people living in appartment complexs like the Oasis and the Grove to be able to safely walk to the otherside of the interstate. Crosswalks should be inplimented aswell.</p>
     </div>
   `);
 marker1.addTo(detailMarkers);
@@ -241,7 +241,7 @@ var marker2 = L.marker([29.90406, -97.90338])
     <div style="width: 200px;">
       <h3>River Ridge Parkway - Frontage</h3>
       <img src="Resources/RiverRidgeTree.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>A sidewalk is needed here to connect the IH 35 frontage road path to the River Ridge path to make the rest of San Marcos accesable by foot.</p>
     </div>
   `);
 marker2.addTo(detailMarkers);
@@ -252,7 +252,7 @@ var marker3 = L.marker([29.90268, -97.90436])
     <div style="width: 200px;">
       <h3>River Ridge Parkway - Hilton Inn</h3>
       <img src="Resources/RiverRidgeHilton.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>A sidewalk is needed here to connect to the proposed frontage road path.</p>
     </div>
   `);
 marker3.addTo(detailMarkers);
@@ -263,7 +263,7 @@ var marker4 = L.marker([29.902450190514223, -97.90452303212359])
     <div style="width: 200px;">
       <h3>River Ridge Parkway - Briarwood</h3>
       <img src="Resources/RiverRidgeBriarwood.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>A sidewlk is needed here to connect the proposed frontage road path to an exististing path that is further south along the IH 35 frontage road.</p>
     </div>
   `);
 marker4.addTo(detailMarkers);
