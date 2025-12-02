@@ -765,49 +765,49 @@ var marker49 = L.marker([29.89163, -97.95706])
   `);
 marker49.addTo(detailMarkers);
 
-/*//Oscar Smith marker 1 - Blanco
-var marker18 = L.marker([29.88513, -97.95135])
+//Oscar Smith marker 1 - Blanco
+var marker50 = L.marker([29.88513, -97.95135])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBjqNAxKGybSYCpOWJK3ypkAazwXy0l3-7R0dmZe0I8qiM?e=UcRC1n.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Oscar Smith - Blanco</h3>
+      <img src="Resources/OscarSmithBlanco.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker50.addTo(detailMarkers);
 
-//Oscar Smith marker 2 - Moore
-var marker18 = L.marker([29.88526, -97.94966])
+//Oscar Smith marker 2 - Strahan House
+var marker51 = L.marker([29.88526, -97.94966])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQDbRVudn4EUQbDFQ61-WyAvAcU88lOHISBJN8mJ2zgNY1U?e=JQDBfC.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Oscar Smith - Strahan House</h3>
+      <img src="Resources/OscarSmithStrahanHouse.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker51.addTo(detailMarkers);
 
 //Moore marker 1 - Rogers
-var marker18 = L.marker([29.88463, -97.94900])
+var marker52 = L.marker([29.88463, -97.94900])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQDfI7oThwc4T57dnvAt5YocAUYR8i3gs4jA_bL6yY28Dg0?e=DyqgCU.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Moore - Rogers</h3>
+      <img src="Resources/MooreRogers.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker52.addTo(detailMarkers);
 
 //Moore marker 2 - Moeller
-var marker18 = L.marker([29.88503, -97.94925])
+var marker53 = L.marker([29.88503, -97.94925])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCOqZeVl045Q6qSk6IQ8ts6ATo8pK3b5b_XXpkfI6NedFo?e=Nk1Hgp.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Moore - Moeller</h3>
+      <img src="Resources/MooreMoeller.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);*/
+marker53.addTo(detailMarkers);
 
 // Set minimum zoom level for markers to appear
 var minZoomForMarkers = 14;
