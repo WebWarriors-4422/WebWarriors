@@ -614,8 +614,8 @@ marker18.addTo(detailMarkers);
 var marker18 = L.marker([29.89256, -97.95819])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCorJOQpipsSZj6U_lOkENCAQJwCiSeG5PIxzTnVXzehrU?e=egI9IX.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Blind Hill Down</h3>
+      <img src="Resources/RRBlindHillDown.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -625,8 +625,8 @@ marker18.addTo(detailMarkers);
 var marker18 = L.marker([29.89244, -97.95793])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQA2wcUvf2ubRqM_KXpVdKliASA9PKpK-sm7x-693Gsjq9I?e=LFTjFd.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Blind Hill Up</h3>
+      <img src="Resources/RRBlindHillUp.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -714,8 +714,8 @@ marker18.addTo(detailMarkers);
 var marker18 = L.marker([29.88785, -97.95409])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQA5HDbVuNAJT6HRWOG1EgthAQDuQ3brdEbaHn3Dxrv70cg?e=u6evz8.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Blanco Hall</h3>
+      <img src="Resources/RRBlancoHall.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
