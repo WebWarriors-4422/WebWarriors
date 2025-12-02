@@ -467,7 +467,7 @@ var marker22 = L.marker([29.88382, -97.96598])
   `);
 marker22.addTo(detailMarkers);
 
-/*//Ranch Road 12 marker 1 - La Cima
+//Ranch Road 12 marker 1 - La Cima
 var marker23 = L.marker([29.90043, -97.98427])
   .bindPopup(`
     <div style="width: 200px;">
@@ -482,7 +482,7 @@ marker23.addTo(detailMarkers);
 var marker24 = L.marker([29.89920, -97.97832])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Ranch Road 12 - RV Lot/h3>
+      <h3>Ranch Road 12 - RV Lot</h3>
       <img src="Resources/RRRVs.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
@@ -512,7 +512,7 @@ var marker26 = L.marker([29.89798, -97.97047])
 marker26.addTo(detailMarkers);
 
 //Ranch Road 12 marker 5 - Dive Shop
-var marker18 = L.marker([29.89789, -97.97068])
+var marker27 = L.marker([29.89789, -97.97068])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Dive Shop</h3>
@@ -520,10 +520,10 @@ var marker18 = L.marker([29.89789, -97.97068])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker27.addTo(detailMarkers);
 
 //Ranch Road 12 marker 6 - Ringtail
-var marker18 = L.marker([29.89729, -97.96881])
+var marker28 = L.marker([29.89729, -97.96881])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Ringtail</h3>
@@ -531,10 +531,10 @@ var marker18 = L.marker([29.89729, -97.96881])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker28.addTo(detailMarkers);
 
 //Ranch Road 12 marker 7 - Baptist Church
-var marker18 = L.marker([29.89711, -97.96843])
+var marker29 = L.marker([29.89711, -97.96843])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Baptist Church</h3>
@@ -542,21 +542,21 @@ var marker18 = L.marker([29.89711, -97.96843])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker29.addTo(detailMarkers);
 
 //Ranch Road 12 marker 8 - The Edge
-var marker18 = L.marker([29.89655, -97.96626])
+var marker30 = L.marker([29.89655, -97.96626])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQB3GYED-XtkTqdEftR_hm0jAVL6ntwK3P8hUoF__avgbc0?e=5QUSx3.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - The Edge</h3>
+      <img src="Resources/RRTheEdge.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker30.addTo(detailMarkers);
 
 //Ranch Road 12 marker 9 - CVS
-var marker18 = L.marker([29.89645, -97.96555])
+var marker31 = L.marker([29.89645, -97.96555])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - CVS</h3>
@@ -564,43 +564,43 @@ var marker18 = L.marker([29.89645, -97.96555])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker31.addTo(detailMarkers);
 
 //Ranch Road 12 marker 10 - The Retreat
-var marker18 = L.marker([29.89471, -97.96045])
+var marker32 = L.marker([29.89471, -97.96045])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQB0fgc4UE3vS4ind2u3QjSzAaN403u1kmo2WRVfPF3epNs?e=cbGowf.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - The Retreat</h3>
+      <img src="Resources/RRTheRetreat.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker32.addTo(detailMarkers);
 
 //Ranch Road 12 marker 11 - Tree
-var marker18 = L.marker([29.89392, -97.95938])
+var marker33 = L.marker([29.89392, -97.95938])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAKSIVS48JoR7qazetDtywyAcrInGjKme3cpWSu95gFxdQ?e=rUU1Ob.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Tree</h3>
+      <img src="Resources/RRTree.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker33.addTo(detailMarkers);
 
 //Ranch Road 12 marker 12 - Stone House
-var marker18 = L.marker([29.89344, -97.95898])
+var marker34 = L.marker([29.89344, -97.95898])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQB5WP9kV2ayQq_d8ARGCcfvAZ9sv7_CXBBAcX7fO1_SC48?e=4dEcdN.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Stone House</h3>
+      <img src="Resources/RRStoneHouse.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker34.addTo(detailMarkers);
 
 //Ranch Road 12 marker 13 - Highcrest
-var marker18 = L.marker([29.89306, -97.95841])
+var marker35 = L.marker([29.89306, -97.95841])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Highcrest</h3>
@@ -608,10 +608,10 @@ var marker18 = L.marker([29.89306, -97.95841])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker35.addTo(detailMarkers);
 
 //Ranch Road 12 marker 14 - Blind Hill Down
-var marker18 = L.marker([29.89256, -97.95819])
+var marker36 = L.marker([29.89256, -97.95819])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Blind Hill Down</h3>
@@ -619,10 +619,10 @@ var marker18 = L.marker([29.89256, -97.95819])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker36.addTo(detailMarkers);
 
 //Ranch Road 12 marker 15 - Blind Hill Up
-var marker18 = L.marker([29.89244, -97.95793])
+var marker37 = L.marker([29.89244, -97.95793])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Blind Hill Up</h3>
@@ -630,10 +630,10 @@ var marker18 = L.marker([29.89244, -97.95793])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker37.addTo(detailMarkers);
 
 //Ranch Road 12 marker 16 - Franklin
-var marker18 = L.marker([29.89166, -97.95731])
+var marker38 = L.marker([29.89166, -97.95731])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Franklin</h3>
@@ -641,10 +641,10 @@ var marker18 = L.marker([29.89166, -97.95731])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker38.addTo(detailMarkers);
 
 //Ranch Road 12 marker 17 - Alley
-var marker18 = L.marker([29.89123, -97.95688])
+var marker39 = L.marker([29.89123, -97.95688])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Alley</h3>
@@ -652,21 +652,21 @@ var marker18 = L.marker([29.89123, -97.95688])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker39.addTo(detailMarkers);
 
 //Ranch Road 12 marker 18 - Wake The Dead
-var marker18 = L.marker([29.89131, -97.95670])
+var marker40 = L.marker([29.89131, -97.95670])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCFQa4L4uZJRKUf1F37ADKpAQMMnItBTJi95TpUCgivOPM?e=o2VajY.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Wake The Dead</h3>
+      <img src="Resources/RRWakeTheDead.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker40.addTo(detailMarkers);
 
 //Ranch Road 12 marker 19 - Chepo's
-var marker18 = L.marker([29.89052, -97.95584])
+var marker41 = L.marker([29.89052, -97.95584])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Chepo's</h3>
@@ -674,10 +674,10 @@ var marker18 = L.marker([29.89052, -97.95584])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker41.addTo(detailMarkers);
 
 //Ranch Road 12 marker 20 - Holland
-var marker18 = L.marker([29.89009, -97.95561])
+var marker42 = L.marker([29.89009, -97.95561])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Holland</h3>
@@ -685,10 +685,10 @@ var marker18 = L.marker([29.89009, -97.95561])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker42.addTo(detailMarkers);
 
 //Ranch Road 12 marker 21 - Dear Sign
-var marker18 = L.marker([29.88920, -97.95490])
+var marker43 = L.marker([29.88920, -97.95490])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Dear Sign</h3>
@@ -696,10 +696,10 @@ var marker18 = L.marker([29.88920, -97.95490])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker43.addTo(detailMarkers);
 
 //Ranch Road 12 marker 22 - Cemetery Crossing
-var marker18 = L.marker([29.88780, -97.95423])
+var marker44 = L.marker([29.88780, -97.95423])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Cemetery Crossing</h3>
@@ -708,10 +708,10 @@ var marker18 = L.marker([29.88780, -97.95423])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker44.addTo(detailMarkers);
 
 //Ranch Road 12 marker 23 - Blanco Hall
-var marker18 = L.marker([29.88785, -97.95409])
+var marker45 = L.marker([29.88785, -97.95409])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Blanco Hall</h3>
@@ -719,10 +719,10 @@ var marker18 = L.marker([29.88785, -97.95409])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker45.addTo(detailMarkers);
 
 //Ranch Road 12 marker 24 - Disc Golf
-var marker18 = L.marker([29.88618, -97.95280])
+var marker46 = L.marker([29.88618, -97.95280])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Disc Golf</h3>
@@ -730,10 +730,10 @@ var marker18 = L.marker([29.88618, -97.95280])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker46.addTo(detailMarkers);
 
 //Ranch Road 12 marker 25 - Smith House
-var marker18 = L.marker([29.88577, -97.95209])
+var marker47 = L.marker([29.88577, -97.95209])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Smith House</h3>
@@ -741,10 +741,10 @@ var marker18 = L.marker([29.88577, -97.95209])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker47.addTo(detailMarkers);
 
 //Ranch Road 12 marker 26 - Blanco
-var marker18 = L.marker([29.88517, -97.95153])
+var marker48 = L.marker([29.88517, -97.95153])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Blanco</h3>
@@ -752,10 +752,10 @@ var marker18 = L.marker([29.88517, -97.95153])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker48.addTo(detailMarkers);
 
 //Ranch Road 12 marker 27 - Coers
-var marker18 = L.marker([29.89163, -97.95706])
+var marker49 = L.marker([29.89163, -97.95706])
   .bindPopup(`
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Coers</h3>
@@ -763,51 +763,51 @@ var marker18 = L.marker([29.89163, -97.95706])
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker49.addTo(detailMarkers);
 
 //Oscar Smith marker 1 - Blanco
-var marker18 = L.marker([29.88513, -97.95135])
+var marker50 = L.marker([29.88513, -97.95135])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBjqNAxKGybSYCpOWJK3ypkAazwXy0l3-7R0dmZe0I8qiM?e=UcRC1n.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Oscar Smith - Blanco</h3>
+      <img src="Resources/OscarSmithBlanco.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker50.addTo(detailMarkers);
 
-//Oscar Smith marker 2 - Moore
-var marker18 = L.marker([29.88526, -97.94966])
+//Oscar Smith marker 2 - Strahan House
+var marker51 = L.marker([29.88526, -97.94966])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQDbRVudn4EUQbDFQ61-WyAvAcU88lOHISBJN8mJ2zgNY1U?e=JQDBfC.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Oscar Smith - Strahan House</h3>
+      <img src="Resources/OscarSmithStrahanHouse.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker51.addTo(detailMarkers);
 
 //Moore marker 1 - Rogers
-var marker18 = L.marker([29.88463, -97.94900])
+var marker52 = L.marker([29.88463, -97.94900])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQDfI7oThwc4T57dnvAt5YocAUYR8i3gs4jA_bL6yY28Dg0?e=DyqgCU.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Moore - Rogers</h3>
+      <img src="Resources/MooreRogers.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);
+marker52.addTo(detailMarkers);
 
 //Moore marker 2 - Moeller
-var marker18 = L.marker([29.88503, -97.94925])
+var marker53 = L.marker([29.88503, -97.94925])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCOqZeVl045Q6qSk6IQ8ts6ATo8pK3b5b_XXpkfI6NedFo?e=Nk1Hgp.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Moore - Moeller</h3>
+      <img src="Resources/MooreMoeller.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
-marker18.addTo(detailMarkers);*/
+marker53.addTo(detailMarkers);
 
 // Set minimum zoom level for markers to appear
 var minZoomForMarkers = 14;
