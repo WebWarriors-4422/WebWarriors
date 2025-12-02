@@ -493,8 +493,8 @@ marker24.addTo(detailMarkers);
 var marker25 = L.marker([29.89899, -97.97375])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBhK_u02kl9RIcVz-Yd8HmLAUSoXaDw7wRWraV7_0BeIrA?e=KswrAb.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Country Estates</h3>
+      <img src="Resources/RRCountryEstates.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -504,8 +504,8 @@ marker25.addTo(detailMarkers);
 var marker26 = L.marker([29.89798, -97.97047])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQDWB5Zoo-7HTL1ngbeAse-UAQji5tkIZO_8ygHiFq-tMbA?e=3TDABS.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Crestwood</h3>
+      <img src="Resources/RRCrestwood.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -704,6 +704,7 @@ var marker18 = L.marker([29.88780, -97.95423])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Cemetery Crossing</h3>
       <img src="Resources/RRCemetery.jpg" style="width: 100%; height: auto; margin: 10px 0;">
+      <img src="Resources/RRCrossing.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
