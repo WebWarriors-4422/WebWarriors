@@ -206,7 +206,7 @@ document.getElementById("regionSelect").addEventListener("click", function(event
     },
     bishop: {
       center: [29.879, -97.963],
-      zoom: 16.5
+      zoom: 16
     },
     all: {
       center: [29.8827297, -98.01],
@@ -418,7 +418,7 @@ var marker18 = L.marker([29.87440, -97.95551])
     <div style="width: 200px;">
       <h3>Bishop St - Belvin</h3>
       <img src="Resources/BishopBelvin.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for a sidewalk along Bishop St to connect to the sidewalk system along West Hopkins St to allow residents to commute by foot to areas like Downtown San Marcos, or Texas State University .</p>
     </div>
   `);
 marker18.addTo(detailMarkers);
@@ -429,7 +429,7 @@ var marker19 = L.marker([29.87689, -97.95833])
     <div style="width: 200px;">
       <h3>Bishop St - Prospect</h3>
       <img src="Resources/BishopProspect.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the area where a sidewalk is needed to connect an existing system to allow for a continuious sidewalk along Bishop St.</p>
     </div>
   `);
 marker19.addTo(detailMarkers);
@@ -440,7 +440,7 @@ var marker20 = L.marker([29.87805, -97.95946])
     <div style="width: 200px;">
       <h3>Bishop St - Progress</h3>
       <img src="Resources/BishopProgress.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for a sidewalk to continue along Bishop St.</p>
     </div>
   `);
 marker20.addTo(detailMarkers);
@@ -451,7 +451,7 @@ var marker21 = L.marker([29.88094, -97.96272])
     <div style="width: 200px;">
       <h3>Bishop St - Marlton</h3>
       <img src="Resources/BishopMarlton.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for a sidewalk to continue along Bishop St to connect to the marker at the intersection of Bishop and Franklin.</p>
     </div>
   `);
 marker21.addTo(detailMarkers);
@@ -462,7 +462,7 @@ var marker22 = L.marker([29.88382, -97.96598])
     <div style="width: 200px;">
       <h3>Bishop St - Franklin</h3>
       <img src="Resources/BishopFranklin.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk system to connect to the existing sidewalks along Craddock Avenue. Helping residents in student housing complexs like the Cottages at San Marcos have a pedestrian friendly infrastructure to get to the inner city.</p>
     </div>
   `);
 marker22.addTo(detailMarkers);
