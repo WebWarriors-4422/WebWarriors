@@ -230,7 +230,7 @@ var marker1 = L.marker([29.90451, -97.90174])
     <div style="width: 200px;">
       <h3>River Ridge Parkway - East Underpass</h3>
       <img src="Resources/RiverRidgeEastUnderpass.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This section of River Ridge is lacking a side walk thats needed to allow people living in appartment complexs like the Oasis and the Grove to be abe to safely walk to the otherside of the interstate. Crosswalks should be inplimented aswell.</p>
     </div>
   `);
 marker1.addTo(detailMarkers);
