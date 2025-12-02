@@ -180,3 +180,25 @@ html, body, #map {
     left: 430px !important;
     top: 0.1px !important;
 }
+
+/*User Response Button*/
+#info-box .response-btn {
+  background-color: #7d9b7a;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#info-box .response-btn:hover {
+  background-color: #3e8e41;
+}
