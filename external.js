@@ -559,8 +559,8 @@ marker18.addTo(detailMarkers);
 var marker18 = L.marker([29.89645, -97.96555])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQB8Y2nyoFdeTKk_g0UGmU3sAR4-BY5uxY4V6uZHneH-mEI?e=un2JD9.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - CVS</h3>
+      <img src="Resources/RRCVS.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -691,8 +691,8 @@ marker18.addTo(detailMarkers);
 var marker18 = L.marker([29.88920, -97.95490])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQBTDXRgBXlCQ58coF1yt9rfAY0ut71Cd0cv7iTABpaulo0?e=Xoyqw5.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Dear Sign</h3>
+      <img src="Resources/RRDearSign.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -725,8 +725,8 @@ marker18.addTo(detailMarkers);
 var marker18 = L.marker([29.88618, -97.95280])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCvUpnlHml7RqZrVTE0TtOFAZd7JS4DTBo1_zXKqw_z5Io?e=DAijfy.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Disc Golf</h3>
+      <img src="Resources/RRDiscGolf.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
