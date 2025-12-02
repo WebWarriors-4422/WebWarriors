@@ -669,8 +669,8 @@ marker18.addTo(detailMarkers);
 var marker18 = L.marker([29.89052, -97.95584])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQApYl66vncnQIL1_EhKQf6PAfA0phcgRDOW4iKM7qbvMPg?e=TP9CvR.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Chepo's</h3>
+      <img src="Resources/RRChepos.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -702,9 +702,8 @@ marker18.addTo(detailMarkers);
 var marker18 = L.marker([29.88780, -97.95423])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCRRP7k3nXTRKRSWi-faa4oAfeO_BsuWNccKvW0-xhJXVo?e=cLUdOl.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQDYLEHDyh1HTrfvztmgEs60AUB2qzEss1xoYidPZdeV9_g?e=wXcfbD.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Cemetery Crossing</h3>
+      <img src="Resources/RRCemetery.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -758,8 +757,8 @@ marker18.addTo(detailMarkers);
 var marker18 = L.marker([29.89163, -97.95706])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQA6S2TcKJnXQbWkEhoCvxgFATVsI3vs5cPNgMYxQW_2m5I?e=wEGp7h.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Coers</h3>
+      <img src="Resources/RRCoers.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
