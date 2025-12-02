@@ -515,8 +515,8 @@ marker26.addTo(detailMarkers);
 var marker18 = L.marker([29.89789, -97.97068])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCcTxmllCyiSZUOYVZMxUcHARdrse7HDkiyKTLrSxZ_BfY?e=7JIOMs.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Dive Shop</h3>
+      <img src="Resources/RRDiveShop.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -603,8 +603,8 @@ marker18.addTo(detailMarkers);
 var marker18 = L.marker([29.89306, -97.95841])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCecqTqdZu6Qb-iKJmceLnxAVrFFazxR8kWUyALkr5yrhk?e=fGrEar.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Highcrest</h3>
+      <img src="Resources/RRHighcrest.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -636,8 +636,8 @@ marker18.addTo(detailMarkers);
 var marker18 = L.marker([29.89166, -97.95731])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQCe_GOY1w4tSb6xk1eqVzRiAX7cWN4p6NDmF7zYQcDHOr0?e=Zh7bhB.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Franklin</h3>
+      <img src="Resources/RRFranklin.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
@@ -680,8 +680,8 @@ marker18.addTo(detailMarkers);
 var marker18 = L.marker([29.89009, -97.95561])
   .bindPopup(`
     <div style="width: 200px;">
-      <h3>Another Location</h3>
-      <img src="https://1drv.ms/i/c/a83f359f7f55dd13/IQAgqtCuNQU2QI1_YxpZrXMCASgBL4TAXKl7x_1Hoz1I64Y?e=1nruyK.jpeg" style="width: 100%; height: auto; margin: 10px 0;">
+      <h3>Ranch Road 12 - Holland</h3>
+      <img src="Resources/RRHolland.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <p>info info info.</p>
     </div>
   `);
