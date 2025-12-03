@@ -771,7 +771,7 @@ var marker50 = L.marker([29.88513, -97.95135])
     <div style="width: 200px;">
       <h3>Oscar Smith - Blanco</h3>
       <img src="Resources/OscarSmithBlanco.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need to connect the proposed Ranch Road 12 sidewalk system to an additional sidewalk system along Oscar Smith Avenue allowing pedestrians to utilize a complete system.</p>
     </div>
   `);
 marker50.addTo(detailMarkers);
@@ -782,7 +782,7 @@ var marker51 = L.marker([29.88526, -97.94966])
     <div style="width: 200px;">
       <h3>Oscar Smith - Strahan House</h3>
       <img src="Resources/OscarSmithStrahanHouse.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates where the Oscar Smith Sidewalk system will connect with Moore St.</p>
     </div>
   `);
 marker51.addTo(detailMarkers);
@@ -793,7 +793,7 @@ var marker52 = L.marker([29.88463, -97.94900])
     <div style="width: 200px;">
       <h3>Moore - Rogers</h3>
       <img src="Resources/MooreRogers.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker shows where the proposed Ranch Road 12 and Oscar Smith Sidewalk systems will connect with the existing system along Moore St allowing pedestrians to access many places throughout San Marcos via walking without having to stress if there is a safe path for them to travel.</p>
     </div>
   `);
 marker52.addTo(detailMarkers);
@@ -804,7 +804,7 @@ var marker53 = L.marker([29.88503, -97.94925])
     <div style="width: 200px;">
       <h3>Moore - Moeller</h3>
       <img src="Resources/MooreMoeller.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for a sidewalk along Moore St.</p>
     </div>
   `);
 marker53.addTo(detailMarkers);
