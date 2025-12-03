@@ -1,4 +1,4 @@
 # WebWarriors
 For this project, our goal was threefold: identify and map problem areas within a 5-mile radius of downtown San Marcos, provide feasible, location-specific solution recommendations, and bring awareness to the lack of pedestrian-friendly infrastructure. Our webpage will provide an interactive map where viewers can select the highlighted roads and see where problem areas are. We also aim to include user and community feedback through a Google Form where users can inform us of locations they believe should be added to the map. Our hope is that our website can be used and accessed by a variety of people, and be used to spread awareness of the lack of pedestrian-friendly infrastructure in the city of San Marcos, Texas.
 
-![WebWarriors Website](Resources\Web Warriors Website Screenshot.jpg)
+![WebWarriors Website](Resources\WebWarriorsWebsiteScreenshot.jpg)
