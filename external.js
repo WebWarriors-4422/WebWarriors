@@ -230,7 +230,7 @@ var marker1 = L.marker([29.90451, -97.90174])
     <div style="width: 200px;">
       <h3>River Ridge Parkway - East Underpass</h3>
       <img src="Resources/RiverRidgeEastUnderpass.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>This section of River Ridge is lacking a side walk that's needed to allow people living in appartment complexs like the Oasis and the Grove to be able to safely walk to the otherside of the interstate. Crosswalks should be inplimented aswell.</p>
+      <p>This section of River Ridge is lacking a side walk that's needed to allow people living in apartment complexes like the Oasis and the Grove to be able to safely walk to the otherside of the interstate. Crosswalks should be inplimented aswell.</p>
     </div>
   `);
 marker1.addTo(detailMarkers);
@@ -241,7 +241,7 @@ var marker2 = L.marker([29.90406, -97.90338])
     <div style="width: 200px;">
       <h3>River Ridge Parkway - Frontage</h3>
       <img src="Resources/RiverRidgeTree.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>A sidewalk is needed here to connect the IH 35 frontage road path to the River Ridge path to make the rest of San Marcos accesable by foot.</p>
+      <p>A sidewalk is needed here to connect the IH 35 frontage road path to the River Ridge path to make the rest of San Marcos accessible by foot.</p>
     </div>
   `);
 marker2.addTo(detailMarkers);
@@ -263,7 +263,7 @@ var marker4 = L.marker([29.902450190514223, -97.90452303212359])
     <div style="width: 200px;">
       <h3>River Ridge Parkway - Briarwood</h3>
       <img src="Resources/RiverRidgeBriarwood.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>A sidewlk is needed here to connect the proposed frontage road path to an exististing path that is further south along the IH 35 frontage road.</p>
+      <p>A sidewalk is needed here to connect the proposed frontage road path to an existing path that is further south along the IH 35 frontage road.</p>
     </div>
   `);
 marker4.addTo(detailMarkers);
@@ -274,7 +274,7 @@ var marker5 = L.marker([29.81653, -97.94341])
     <div style="width: 200px;">
       <h3>Highway 123 - Rattler</h3>
       <img src="Resources/123Rattler.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>This marker will be the start of a proposed sidewalk system that will connect several existing sidewalks to each other along Highway 123. This will be a benefit to the San Marcos community by encouraging pedestrians living in the appartments and neighborhood residence to commute by foot to the inner city.</p>
+      <p>This marker will be the start of a proposed sidewalk system that will connect several existing sidewalks to each other along Highway 123. This will be a benefit to the San Marcos community by encouraging pedestrians living in the apartments and neighborhood residence to commute by foot to the inner city.</p>
     </div>
   `);
 marker5.addTo(detailMarkers);
@@ -297,7 +297,7 @@ var marker7 = L.marker([29.82908, -97.94213])
       <h3>Highway 123 - Old Bastrop</h3>
       <img src="Resources/123SOldBastropN.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <img src="Resources/123SOldBastropS.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>At this marker the images are representing the need for a sidewalk to the South (the bottom image) of Old Bastrop Highway to connect to the existing system to the south and the need for a sidewalk to the North (the top image) to maintain the consistantcy of the system.</p>
+      <p>At this marker the images are representing the need for a sidewalk to the South (the bottom image) of Old Bastrop Highway to connect to the existing system to the south and the need for a sidewalk to the North (the top image) to maintain the consistency of the system.</p>
     </div>
   `);
 marker7.addTo(detailMarkers);
@@ -308,7 +308,7 @@ var marker8 = L.marker([29.83294, -97.94178])
     <div style="width: 200px;">
       <h3>Highway 123 - Clovis</h3>
       <img src="Resources/123Clovis.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>This marker needes a sidewalk to connect to an existing system at the Mission Trail Appartments.</p>
+      <p>This marker needs a sidewalk to connect to an existing system at the Mission Trail apartments.</p>
     </div>
   `);
 marker8.addTo(detailMarkers);
@@ -374,7 +374,7 @@ var marker14 = L.marker([29.85305, -97.93982])
     <div style="width: 200px;">
       <h3>Highway 123 - Crawford</h3>
       <img src="Resources/123Crawford.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>This marker indicatesd the need for the sidewalk to continue heading northbound along Highway 123.</p>
+      <p>This marker indicates the need for the sidewalk to continue heading northbound along Highway 123.</p>
     </div>
   `);
 marker14.addTo(detailMarkers);
@@ -429,7 +429,7 @@ var marker19 = L.marker([29.87689, -97.95833])
     <div style="width: 200px;">
       <h3>Bishop St - Prospect</h3>
       <img src="Resources/BishopProspect.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>This marker indicates the area where a sidewalk is needed to connect an existing system to allow for a continuious sidewalk along Bishop St.</p>
+      <p>This marker indicates the area where a sidewalk is needed to connect an existing system to allow for a continuous sidewalk along Bishop St.</p>
     </div>
   `);
 marker19.addTo(detailMarkers);
@@ -462,7 +462,7 @@ var marker22 = L.marker([29.88382, -97.96598])
     <div style="width: 200px;">
       <h3>Bishop St - Franklin</h3>
       <img src="Resources/BishopFranklin.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>This marker indicates the need for the proposed sidewalk system to connect to the existing sidewalks along Craddock Avenue. Helping residents in student housing complexs like the Cottages at San Marcos have a pedestrian friendly infrastructure to get to the inner city.</p>
+      <p>This marker indicates the need for the proposed sidewalk system to connect to the existing sidewalks along Craddock Avenue. Helping residents in student housing complexes like the Cottages at San Marcos have a pedestrian friendly infrastructure to get to the inner city.</p>
     </div>
   `);
 marker22.addTo(detailMarkers);
@@ -506,7 +506,7 @@ var marker26 = L.marker([29.89798, -97.97047])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Crestwood</h3>
       <img src="Resources/RRCrestwood.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>This marker indicates the need for the proposed sidewalk to continue along Ranch Road 12. Allowing residents to safely access several buisnesses along Ranch Road by foot. </p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along Ranch Road 12. Allowing residents to safely access several businesses along Ranch Road by foot. </p>
     </div>
   `);
 marker26.addTo(detailMarkers);
@@ -528,7 +528,7 @@ var marker28 = L.marker([29.89729, -97.96881])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Ringtail</h3>
       <img src="Resources/RRRingtail.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>This marker indicates the need for the proposed sidewalk to continue from the existing sidewalk at the Dakota Ranch appartments along Ranch Road 12. Allowing residents to safely access neighboring businesses. </p>
+      <p>This marker indicates the need for the proposed sidewalk to continue from the existing sidewalk at the Dakota Ranch apartments along Ranch Road 12. Allowing residents to safely access neighboring businesses. </p>
     </div>
   `);
 marker28.addTo(detailMarkers);
@@ -539,7 +539,7 @@ var marker29 = L.marker([29.89711, -97.96843])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Baptist Church</h3>
       <img src="Resources/RRBaptistChurcht.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>This marker indicates the need for the proposed sidewalk to continue along Ranch Road 12 connecting the existing sidewalk at the Dakota Ranch appartments to the existing sidewalk at The Edge appartments.  </p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along Ranch Road 12 connecting the existing sidewalk at the Dakota Ranch apartments to the existing sidewalk at The Edge apartments.  </p>
     </div>
   `);
 marker29.addTo(detailMarkers);
@@ -550,7 +550,7 @@ var marker30 = L.marker([29.89655, -97.96626])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - The Edge</h3>
       <img src="Resources/RRTheEdge.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>This marker indicates the need for the existing sidewalk at The Edge appartments to continue along Ranch Road 12 to allow residents to safely commute by foot.</p>
+      <p>This marker indicates the need for the existing sidewalk at The Edge apartments to continue along Ranch Road 12 to allow residents to safely commute by foot.</p>
     </div>
   `);
 marker30.addTo(detailMarkers);
@@ -605,7 +605,7 @@ var marker35 = L.marker([29.89306, -97.95841])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Highcrest</h3>
       <img src="Resources/RRHighcrest.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>.</p>
+      <p>At this marker there is a Texas State University bus stop along with the Highcrest Apartments influencing the need for an additional Side walk on the north side of the road.</p>
     </div>
   `);
 marker35.addTo(detailMarkers);
@@ -616,7 +616,7 @@ var marker36 = L.marker([29.89256, -97.95819])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Blind Hill Down</h3>
       <img src="Resources/RRBlindHillDown.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along Ranch Road 12 heading east.</p>
     </div>
   `);
 marker36.addTo(detailMarkers);
@@ -627,7 +627,7 @@ var marker37 = L.marker([29.89244, -97.95793])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Blind Hill Up</h3>
       <img src="Resources/RRBlindHillUp.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along Ranch Road 12 heading west.</p>
     </div>
   `);
 marker37.addTo(detailMarkers);
@@ -638,7 +638,7 @@ var marker38 = L.marker([29.89166, -97.95731])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Franklin</h3>
       <img src="Resources/RRFranklin.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along Ranch Road 12 and can connect to a proposed sidewalk on the north side of the road with the existing Crosswalk.</p>
     </div>
   `);
 marker38.addTo(detailMarkers);
@@ -649,7 +649,7 @@ var marker39 = L.marker([29.89123, -97.95688])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Alley</h3>
       <img src="Resources/RRAlley.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along the south side of Ranch Road 12.</p>
     </div>
   `);
 marker39.addTo(detailMarkers);
@@ -660,7 +660,7 @@ var marker40 = L.marker([29.89131, -97.95670])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Wake The Dead</h3>
       <img src="Resources/RRWakeTheDead.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along the north side of Ranch Road 12.This will benefit the residents of the area as well as students and staff from the bus stop to access the local businesses nearby, such as Wake the Dead and the 7/11. </p>
     </div>
   `);
 marker40.addTo(detailMarkers);
@@ -671,7 +671,7 @@ var marker41 = L.marker([29.89052, -97.95584])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Chepo's</h3>
       <img src="Resources/RRChepos.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along the north side of Ranch Road 12 connecting to the existing sidewalk system along Holland St. This will allow pedestrians to easily access the Texas State University campus. </p>
     </div>
   `);
 marker41.addTo(detailMarkers);
@@ -682,7 +682,7 @@ var marker42 = L.marker([29.89009, -97.95561])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Holland</h3>
       <img src="Resources/RRHolland.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker has an image that shows the need for a crosswalk at the intersection of Holland and Ranch Road 12.</p>
     </div>
   `);
 marker42.addTo(detailMarkers);
@@ -693,7 +693,7 @@ var marker43 = L.marker([29.88920, -97.95490])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Dear Sign</h3>
       <img src="Resources/RRDearSign.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along the south side of Ranch Road 12.</p>
     </div>
   `);
 marker43.addTo(detailMarkers);
@@ -705,7 +705,7 @@ var marker44 = L.marker([29.88780, -97.95423])
       <h3>Ranch Road 12 - Cemetery Crossing</h3>
       <img src="Resources/RRCemetery.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <img src="Resources/RRCrossing.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>At this marker the top photo (south side of the road) shows the need for the sidewalk along that side of Ranch road 12. The bottom photo (the north side of the road) show the need for the sidewalk along that side of the road.</p>
     </div>
   `);
 marker44.addTo(detailMarkers);
@@ -716,7 +716,7 @@ var marker45 = L.marker([29.88785, -97.95409])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Blanco Hall</h3>
       <img src="Resources/RRBlancoHall.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for a sidewalk coming from Blanco Hall to connect to the proposed sidewalk on the north side of Ranch Road 12.</p>
     </div>
   `);
 marker45.addTo(detailMarkers);
@@ -727,7 +727,7 @@ var marker46 = L.marker([29.88618, -97.95280])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Disc Golf</h3>
       <img src="Resources/RRDiscGolf.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along the north side of Ranch Road 12.</p>
     </div>
   `);
 marker46.addTo(detailMarkers);
@@ -738,7 +738,7 @@ var marker47 = L.marker([29.88577, -97.95209])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Smith House</h3>
       <img src="Resources/RRSmithHouse.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along the north side of Ranch Road 12 connecting the system.</p>
     </div>
   `);
 marker47.addTo(detailMarkers);
@@ -749,7 +749,7 @@ var marker48 = L.marker([29.88517, -97.95153])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Blanco</h3>
       <img src="Resources/RRBlanco.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along the south side of Ranch Road 12 creating a continuous system for pedestrians to commute safely along the entirety of Ranch Road 12.</p>
     </div>
   `);
 marker48.addTo(detailMarkers);
@@ -760,7 +760,7 @@ var marker49 = L.marker([29.89163, -97.95706])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Coers</h3>
       <img src="Resources/RRCoers.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the existing crosswalk on the north side of Ranch Road 12. This will benefit the proposed sidewalk needed on the north side of the road so that pedestrians will be able to cross the road safely to access the initial proposed sidewalk on the south side of the road.</p>
     </div>
   `);
 marker49.addTo(detailMarkers);
