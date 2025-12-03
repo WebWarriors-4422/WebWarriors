@@ -230,7 +230,7 @@ var marker1 = L.marker([29.90451, -97.90174])
     <div style="width: 200px;">
       <h3>River Ridge Parkway - East Underpass</h3>
       <img src="Resources/RiverRidgeEastUnderpass.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>This section of River Ridge is lacking a side walk that's needed to allow people living in apartment complexes like the Oasis and the Grove to be able to safely walk to the otherside of the interstate. Crosswalks should be inplimented aswell.</p>
+      <p>This section of River Ridge is lacking a side walk that's needed to allow people living in apartment complexes like the Oasis and the Grove to be able to safely walk to the other side of the interstate. Crosswalks should be implemented as well.</p>
     </div>
   `);
 marker1.addTo(detailMarkers);
@@ -285,7 +285,7 @@ var marker6 = L.marker([29.82420, -97.94253])
     <div style="width: 200px;">
       <h3>Highway 123 - Cottonwood</h3>
       <img src="Resources/123Cottonwood.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>At this marker we propose to connect the existing sidewalk from the neighborhood to the next indicated marker.</p>
+      <p>At this marker, we propose to connect the existing sidewalk from the neighborhood to the next indicated marker.</p>
     </div>
   `);
 marker6.addTo(detailMarkers);
@@ -297,7 +297,7 @@ var marker7 = L.marker([29.82908, -97.94213])
       <h3>Highway 123 - Old Bastrop</h3>
       <img src="Resources/123SOldBastropN.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <img src="Resources/123SOldBastropS.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>At this marker the images are representing the need for a sidewalk to the South (the bottom image) of Old Bastrop Highway to connect to the existing system to the south and the need for a sidewalk to the North (the top image) to maintain the consistency of the system.</p>
+      <p>At this marker, the images are representing the need for a sidewalk to the South (the bottom image) of Old Bastrop Highway to connect to the existing system to the south and the need for a sidewalk to the North (the top image) to maintain the consistency of the system.</p>
     </div>
   `);
 marker7.addTo(detailMarkers);
@@ -473,7 +473,7 @@ var marker23 = L.marker([29.90043, -97.98427])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - La Cima</h3>
       <img src="Resources/RRLaCima.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>This marker indicates the start of a proposed pedestrian friendly infrastructure along Ranch Road 12. This area is in need of a sidewalk to allow the residence from the La Cima neighborhood to walk along Ranch road 12, this should connect to the existing crosswalk at the intersection of Ranch road 12 and Wonder World Dr. </p>
+      <p>This marker indicates the start of a proposed pedestrian friendly infrastructure along Ranch Road 12. This area is in need of a sidewalk to allow the residence from the La Cima neighborhood to walk along Ranch Road 12, this should connect to the existing crosswalk at the intersection of Ranch Road 12 and Wonder World Dr. </p>
     </div>
   `);
 marker23.addTo(detailMarkers);
@@ -605,7 +605,7 @@ var marker35 = L.marker([29.89306, -97.95841])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Highcrest</h3>
       <img src="Resources/RRHighcrest.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>At this marker there is a Texas State University bus stop along with the Highcrest Apartments influencing the need for an additional Side walk on the north side of the road.</p>
+      <p>At this marker there is a Texas State University bus stop along with the Highcrest Apartments influencing the need for an additional sidewalk on the north side of the road.</p>
     </div>
   `);
 marker35.addTo(detailMarkers);
@@ -638,7 +638,7 @@ var marker38 = L.marker([29.89166, -97.95731])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Franklin</h3>
       <img src="Resources/RRFranklin.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>This marker indicates the need for the proposed sidewalk to continue along Ranch Road 12 and can connect to a proposed sidewalk on the north side of the road with the existing Crosswalk.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along Ranch Road 12 and connect to a proposed sidewalk on the north side of the road with the existing Crosswalk.</p>
     </div>
   `);
 marker38.addTo(detailMarkers);
@@ -660,7 +660,7 @@ var marker40 = L.marker([29.89131, -97.95670])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Wake The Dead</h3>
       <img src="Resources/RRWakeTheDead.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>This marker indicates the need for the proposed sidewalk to continue along the north side of Ranch Road 12.This will benefit the residents of the area as well as students and staff from the bus stop to access the local businesses nearby, such as Wake the Dead and the 7/11. </p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along the north side of Ranch Road 12. This will benefit the residents of the area as well as students and staff from the bus stop to access the local businesses nearby, such as Wake the Dead and the 7/11. </p>
     </div>
   `);
 marker40.addTo(detailMarkers);
@@ -705,7 +705,7 @@ var marker44 = L.marker([29.88780, -97.95423])
       <h3>Ranch Road 12 - Cemetery Crossing</h3>
       <img src="Resources/RRCemetery.jpg" style="width: 100%; height: auto; margin: 10px 0;">
       <img src="Resources/RRCrossing.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>At this marker the top photo (south side of the road) shows the need for the sidewalk along that side of Ranch road 12. The bottom photo (the north side of the road) show the need for the sidewalk along that side of the road.</p>
+      <p>At this marker the top photo (south side of the road) shows the need for the sidewalk along that side of Ranch road 12. The bottom photo (the north side of the road) shows the need for the sidewalk along that side of the road.</p>
     </div>
   `);
 marker44.addTo(detailMarkers);
@@ -839,60 +839,3 @@ detailMarkers.eachLayer(function(layer) {
     map.panTo(map.unproject(px), {animate: true, duration: 2.0});
   });
 });
-
-/*Tori's unique spatial analysis
-var start = turf.point([-97.94576322327491, 29.884341192968666]);
-var end = turf.point([-97.92890853609376, 29.894266669878704]);
-
-    var area = turf.area(polygon);.addTo(map);
-L.marker([29.87733, -97.94716]).addTo(map)
-    .bindPopup("Wonder World Cave");
-
-L.marker([29.894266669878704, -97.92890853609376]).addTo(map)
-    .bindPopup("Meadows Center");
-// Kyle's Spatial analysis//
- var polygon = turf.polygon([
-  [
-    [-97.95769, 29.87711],
-    [-97.95730, 29.87678],
-    [-97.95620, 29.87768],
-    [-97.95791, 29.87937],
-    [-97.95848, 29.87894],
-    [-97.95727, 29.87779],
-    [-97.95769, 29.87711] // close polygon
-  ]
-]);
-
-var area = turf.area(polygon); // area in square meters
-console.log('Polygon Area:', area);
-
-L.geoJSON(polygon, {
-  style: {
-    color: 'green',
-    fillColor: '#90ee90',
-    fillOpacity: 0.4,
-    weight: 2
-  }
-}).addTo(map);
-
-L.marker([29.87736, -97.95733]).addTo(map)
-  .bindPopup("Wonder World Cave<br>Area: " + area.toFixed(2) + " m²");
-
-// Hank's Spatial Analysis
-L.marker([29.8977314507243, -97.97082322925434]).addTo(map)
-    .bindPopup("Dive Shop");
-
-var diveShopPoint = turf.point([-97.97082322925434, 29.8977314507243]);
-var diveShopBuffer = turf.buffer(diveShopPoint, 100, { units: 'feet' });
-
-// Log the buffer geometry to the browser console
-console.log(JSON.stringify(diveShopBuffer));
-
-L.geoJSON(diveShopBuffer, {
-  style: {
-    color: 'blue',
-    fillColor: '#add8e6',
-    fillOpacity: 0.4,
-    weight: 2
-  }
-}).addTo(map);*/
