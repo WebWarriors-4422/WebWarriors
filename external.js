@@ -473,7 +473,7 @@ var marker23 = L.marker([29.90043, -97.98427])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - La Cima</h3>
       <img src="Resources/RRLaCima.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the start of a proposed pedestrian friendly infrastructure along Ranch Road 12. This area is in need of a sidewalk to allow the residence from the La Cima neighborhood to walk along Ranch road 12, this should connect to the existing crosswalk at the intersection of Ranch road 12 and Wonder World Dr. </p>
     </div>
   `);
 marker23.addTo(detailMarkers);
@@ -484,7 +484,7 @@ var marker24 = L.marker([29.89920, -97.97832])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - RV Lot</h3>
       <img src="Resources/RRRVs.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along Ranch Road 12 .</p>
     </div>
   `);
 marker24.addTo(detailMarkers);
@@ -495,7 +495,7 @@ var marker25 = L.marker([29.89899, -97.97375])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Country Estates</h3>
       <img src="Resources/RRCountryEstates.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along Ranch Road 12.</p>
     </div>
   `);
 marker25.addTo(detailMarkers);
@@ -506,7 +506,7 @@ var marker26 = L.marker([29.89798, -97.97047])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Crestwood</h3>
       <img src="Resources/RRCrestwood.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along Ranch Road 12. Allowing residents to safely access several buisnesses along Ranch Road by foot. </p>
     </div>
   `);
 marker26.addTo(detailMarkers);
@@ -517,7 +517,7 @@ var marker27 = L.marker([29.89789, -97.97068])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Dive Shop</h3>
       <img src="Resources/RRDiveShop.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along Ranch Road 12. This will allow Texas State University students and staff to safely access the Dive Shop, and the Grady Early Building.</p>
     </div>
   `);
 marker27.addTo(detailMarkers);
@@ -528,7 +528,7 @@ var marker28 = L.marker([29.89729, -97.96881])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Ringtail</h3>
       <img src="Resources/RRRingtail.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue from the existing sidewalk at the Dakota Ranch appartments along Ranch Road 12. Allowing residents to safely access neighboring businesses. </p>
     </div>
   `);
 marker28.addTo(detailMarkers);
@@ -539,7 +539,7 @@ var marker29 = L.marker([29.89711, -97.96843])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Baptist Church</h3>
       <img src="Resources/RRBaptistChurcht.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along Ranch Road 12 connecting the existing sidewalk at the Dakota Ranch appartments to the existing sidewalk at The Edge appartments.  </p>
     </div>
   `);
 marker29.addTo(detailMarkers);
@@ -550,7 +550,7 @@ var marker30 = L.marker([29.89655, -97.96626])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - The Edge</h3>
       <img src="Resources/RRTheEdge.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the existing sidewalk at The Edge appartments to continue along Ranch Road 12 to allow residents to safely commute by foot.</p>
     </div>
   `);
 marker30.addTo(detailMarkers);
@@ -561,7 +561,7 @@ var marker31 = L.marker([29.89645, -97.96555])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - CVS</h3>
       <img src="Resources/RRCVS.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to connect to an existing crosswalk at the intersection of Craddock Avenue and Ranch Road 12.</p>
     </div>
   `);
 marker31.addTo(detailMarkers);
@@ -572,7 +572,7 @@ var marker32 = L.marker([29.89471, -97.96045])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - The Retreat</h3>
       <img src="Resources/RRTheRetreat.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the existing sidewalk that extends the length of The Retreat complex, a new sidewalk does not need to go here.</p>
     </div>
   `);
 marker32.addTo(detailMarkers);
@@ -583,7 +583,7 @@ var marker33 = L.marker([29.89392, -97.95938])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Tree</h3>
       <img src="Resources/RRTree.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the end of The Retreat complex sidewalk. The proposed sidewalk should connect here and continue along Ranch Road 12.</p>
     </div>
   `);
 marker33.addTo(detailMarkers);
@@ -594,7 +594,7 @@ var marker34 = L.marker([29.89344, -97.95898])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Stone House</h3>
       <img src="Resources/RRStoneHouse.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>This marker indicates the need for the proposed sidewalk to continue along Ranch Road 12.</p>
     </div>
   `);
 marker34.addTo(detailMarkers);
@@ -605,7 +605,7 @@ var marker35 = L.marker([29.89306, -97.95841])
     <div style="width: 200px;">
       <h3>Ranch Road 12 - Highcrest</h3>
       <img src="Resources/RRHighcrest.jpg" style="width: 100%; height: auto; margin: 10px 0;">
-      <p>info info info.</p>
+      <p>.</p>
     </div>
   `);
 marker35.addTo(detailMarkers);
